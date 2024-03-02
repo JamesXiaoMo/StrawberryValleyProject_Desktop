@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
         self.pushButton_command_submit.clicked.connect(MainWindow.command_submit)
         self.pushButton_connect.clicked.connect(MainWindow.connect_server)
 
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)

@@ -1,0 +1,8502 @@
+[
+  {
+    "data_table_pk": 11,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:28:20"
+  },
+  {
+    "data_table_pk": 12,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 50.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:29:05"
+  },
+  {
+    "data_table_pk": 13,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 50.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:30:05"
+  },
+  {
+    "data_table_pk": 14,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:31:05"
+  },
+  {
+    "data_table_pk": 15,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:32:05"
+  },
+  {
+    "data_table_pk": 16,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:33:05"
+  },
+  {
+    "data_table_pk": 17,
+    "data_owner": 2,
+    "data_air_temp": 19.9,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:34:05"
+  },
+  {
+    "data_table_pk": 18,
+    "data_owner": 2,
+    "data_air_temp": 19.9,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:35:05"
+  },
+  {
+    "data_table_pk": 19,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:36:05"
+  },
+  {
+    "data_table_pk": 20,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:37:05"
+  },
+  {
+    "data_table_pk": 21,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 50.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:38:05"
+  },
+  {
+    "data_table_pk": 22,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:39:05"
+  },
+  {
+    "data_table_pk": 23,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 50.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:40:05"
+  },
+  {
+    "data_table_pk": 24,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 50.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:41:05"
+  },
+  {
+    "data_table_pk": 25,
+    "data_owner": 2,
+    "data_air_temp": 20.4,
+    "data_air_hum": 50,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:42:05"
+  },
+  {
+    "data_table_pk": 26,
+    "data_owner": 2,
+    "data_air_temp": 20.5,
+    "data_air_hum": 49.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:43:05"
+  },
+  {
+    "data_table_pk": 27,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 49.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:44:05"
+  },
+  {
+    "data_table_pk": 28,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 49.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:45:05"
+  },
+  {
+    "data_table_pk": 29,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 49.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:46:05"
+  },
+  {
+    "data_table_pk": 30,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 49.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:47:06"
+  },
+  {
+    "data_table_pk": 31,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 49.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:48:05"
+  },
+  {
+    "data_table_pk": 32,
+    "data_owner": 2,
+    "data_air_temp": 20.8,
+    "data_air_hum": 49.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:49:05"
+  },
+  {
+    "data_table_pk": 33,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 48.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 16:59:29"
+  },
+  {
+    "data_table_pk": 34,
+    "data_owner": 2,
+    "data_air_temp": 23.2,
+    "data_air_hum": 44.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 17:09:28"
+  },
+  {
+    "data_table_pk": 35,
+    "data_owner": 2,
+    "data_air_temp": 24.2,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 17:19:28"
+  },
+  {
+    "data_table_pk": 36,
+    "data_owner": 2,
+    "data_air_temp": 24.3,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 17:29:28"
+  },
+  {
+    "data_table_pk": 37,
+    "data_owner": 2,
+    "data_air_temp": 25,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 17:47:43"
+  },
+  {
+    "data_table_pk": 38,
+    "data_owner": 2,
+    "data_air_temp": 25.5,
+    "data_air_hum": 41.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 18:11:47"
+  },
+  {
+    "data_table_pk": 39,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 48.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 18:21:47"
+  },
+  {
+    "data_table_pk": 40,
+    "data_owner": 2,
+    "data_air_temp": 23.9,
+    "data_air_hum": 51,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 18:31:47"
+  },
+  {
+    "data_table_pk": 41,
+    "data_owner": 2,
+    "data_air_temp": 24.2,
+    "data_air_hum": 53.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 18:41:47"
+  },
+  {
+    "data_table_pk": 42,
+    "data_owner": 2,
+    "data_air_temp": 24.7,
+    "data_air_hum": 54.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 18:51:47"
+  },
+  {
+    "data_table_pk": 43,
+    "data_owner": 2,
+    "data_air_temp": 25.2,
+    "data_air_hum": 52.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 19:01:47"
+  },
+  {
+    "data_table_pk": 44,
+    "data_owner": 2,
+    "data_air_temp": 25.5,
+    "data_air_hum": 53.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 19:11:47"
+  },
+  {
+    "data_table_pk": 45,
+    "data_owner": 2,
+    "data_air_temp": 25.2,
+    "data_air_hum": 53.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 19:21:47"
+  },
+  {
+    "data_table_pk": 46,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 51.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 19:31:47"
+  },
+  {
+    "data_table_pk": 47,
+    "data_owner": 2,
+    "data_air_temp": 24.7,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 19:41:47"
+  },
+  {
+    "data_table_pk": 48,
+    "data_owner": 2,
+    "data_air_temp": 24.4,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 19:51:47"
+  },
+  {
+    "data_table_pk": 49,
+    "data_owner": 2,
+    "data_air_temp": 23.7,
+    "data_air_hum": 47.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 20:01:47"
+  },
+  {
+    "data_table_pk": 50,
+    "data_owner": 2,
+    "data_air_temp": 23.6,
+    "data_air_hum": 50,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 20:11:47"
+  },
+  {
+    "data_table_pk": 51,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 53.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 20:35:15"
+  },
+  {
+    "data_table_pk": 52,
+    "data_owner": 2,
+    "data_air_temp": 24.8,
+    "data_air_hum": 52.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 20:45:15"
+  },
+  {
+    "data_table_pk": 53,
+    "data_owner": 2,
+    "data_air_temp": 24.6,
+    "data_air_hum": 50.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 20:55:15"
+  },
+  {
+    "data_table_pk": 54,
+    "data_owner": 2,
+    "data_air_temp": 23.9,
+    "data_air_hum": 51.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 21:05:15"
+  },
+  {
+    "data_table_pk": 55,
+    "data_owner": 2,
+    "data_air_temp": 24.7,
+    "data_air_hum": 47.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 21:15:15"
+  },
+  {
+    "data_table_pk": 56,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 46.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 21:25:15"
+  },
+  {
+    "data_table_pk": 57,
+    "data_owner": 2,
+    "data_air_temp": 24.2,
+    "data_air_hum": 46.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 21:35:15"
+  },
+  {
+    "data_table_pk": 58,
+    "data_owner": 2,
+    "data_air_temp": 23.9,
+    "data_air_hum": 47.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 21:55:15"
+  },
+  {
+    "data_table_pk": 59,
+    "data_owner": 2,
+    "data_air_temp": 24.6,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 22:05:15"
+  },
+  {
+    "data_table_pk": 60,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 22:15:15"
+  },
+  {
+    "data_table_pk": 61,
+    "data_owner": 2,
+    "data_air_temp": 25,
+    "data_air_hum": 44,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 22:25:15"
+  },
+  {
+    "data_table_pk": 62,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 43.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 22:35:15"
+  },
+  {
+    "data_table_pk": 63,
+    "data_owner": 2,
+    "data_air_temp": 24.8,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 22:45:15"
+  },
+  {
+    "data_table_pk": 64,
+    "data_owner": 2,
+    "data_air_temp": 24.9,
+    "data_air_hum": 49.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 22:55:15"
+  },
+  {
+    "data_table_pk": 65,
+    "data_owner": 2,
+    "data_air_temp": 25,
+    "data_air_hum": 49.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 23:05:15"
+  },
+  {
+    "data_table_pk": 66,
+    "data_owner": 2,
+    "data_air_temp": 25.1,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 23:15:15"
+  },
+  {
+    "data_table_pk": 67,
+    "data_owner": 2,
+    "data_air_temp": 24.8,
+    "data_air_hum": 46.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 23:25:15"
+  },
+  {
+    "data_table_pk": 68,
+    "data_owner": 2,
+    "data_air_temp": 25.1,
+    "data_air_hum": 43.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 23:45:15"
+  },
+  {
+    "data_table_pk": 69,
+    "data_owner": 2,
+    "data_air_temp": 25.1,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-21 23:55:15"
+  },
+  {
+    "data_table_pk": 70,
+    "data_owner": 2,
+    "data_air_temp": 24.8,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 00:05:15"
+  },
+  {
+    "data_table_pk": 71,
+    "data_owner": 2,
+    "data_air_temp": 24.8,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 00:15:15"
+  },
+  {
+    "data_table_pk": 72,
+    "data_owner": 2,
+    "data_air_temp": 24.3,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 00:25:15"
+  },
+  {
+    "data_table_pk": 73,
+    "data_owner": 2,
+    "data_air_temp": 23.8,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 00:35:15"
+  },
+  {
+    "data_table_pk": 74,
+    "data_owner": 2,
+    "data_air_temp": 23,
+    "data_air_hum": 44.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 00:45:15"
+  },
+  {
+    "data_table_pk": 75,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 00:55:15"
+  },
+  {
+    "data_table_pk": 76,
+    "data_owner": 2,
+    "data_air_temp": 22.3,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 01:05:15"
+  },
+  {
+    "data_table_pk": 77,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 45.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 01:15:15"
+  },
+  {
+    "data_table_pk": 78,
+    "data_owner": 2,
+    "data_air_temp": 21.8,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 01:25:15"
+  },
+  {
+    "data_table_pk": 79,
+    "data_owner": 2,
+    "data_air_temp": 21.6,
+    "data_air_hum": 46.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 01:35:15"
+  },
+  {
+    "data_table_pk": 80,
+    "data_owner": 2,
+    "data_air_temp": 21.4,
+    "data_air_hum": 46.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 01:45:15"
+  },
+  {
+    "data_table_pk": 81,
+    "data_owner": 2,
+    "data_air_temp": 21.4,
+    "data_air_hum": 46.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 01:55:15"
+  },
+  {
+    "data_table_pk": 82,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 47.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 02:05:15"
+  },
+  {
+    "data_table_pk": 83,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 46.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 02:15:15"
+  },
+  {
+    "data_table_pk": 84,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 46.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 02:25:15"
+  },
+  {
+    "data_table_pk": 85,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 47.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 02:35:15"
+  },
+  {
+    "data_table_pk": 86,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 47,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 02:45:15"
+  },
+  {
+    "data_table_pk": 87,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 47,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 02:55:15"
+  },
+  {
+    "data_table_pk": 88,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 46.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 03:05:15"
+  },
+  {
+    "data_table_pk": 89,
+    "data_owner": 2,
+    "data_air_temp": 20.5,
+    "data_air_hum": 47.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 03:15:15"
+  },
+  {
+    "data_table_pk": 90,
+    "data_owner": 2,
+    "data_air_temp": 20.4,
+    "data_air_hum": 47.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 03:25:15"
+  },
+  {
+    "data_table_pk": 91,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 47.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 03:35:15"
+  },
+  {
+    "data_table_pk": 92,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 47.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 03:45:15"
+  },
+  {
+    "data_table_pk": 93,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 03:55:15"
+  },
+  {
+    "data_table_pk": 94,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 47.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 04:05:15"
+  },
+  {
+    "data_table_pk": 95,
+    "data_owner": 2,
+    "data_air_temp": 19.9,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 04:15:15"
+  },
+  {
+    "data_table_pk": 96,
+    "data_owner": 2,
+    "data_air_temp": 19.8,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 04:25:15"
+  },
+  {
+    "data_table_pk": 97,
+    "data_owner": 2,
+    "data_air_temp": 19.8,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 04:35:15"
+  },
+  {
+    "data_table_pk": 98,
+    "data_owner": 2,
+    "data_air_temp": 19.7,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 04:45:15"
+  },
+  {
+    "data_table_pk": 99,
+    "data_owner": 2,
+    "data_air_temp": 19.5,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 04:55:15"
+  },
+  {
+    "data_table_pk": 100,
+    "data_owner": 2,
+    "data_air_temp": 19.5,
+    "data_air_hum": 48,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 05:05:15"
+  },
+  {
+    "data_table_pk": 101,
+    "data_owner": 2,
+    "data_air_temp": 19.4,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 05:15:15"
+  },
+  {
+    "data_table_pk": 102,
+    "data_owner": 2,
+    "data_air_temp": 19.3,
+    "data_air_hum": 48.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 05:25:15"
+  },
+  {
+    "data_table_pk": 103,
+    "data_owner": 2,
+    "data_air_temp": 19.2,
+    "data_air_hum": 48.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 05:35:15"
+  },
+  {
+    "data_table_pk": 104,
+    "data_owner": 2,
+    "data_air_temp": 19.2,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 05:45:15"
+  },
+  {
+    "data_table_pk": 105,
+    "data_owner": 2,
+    "data_air_temp": 19.1,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 05:55:15"
+  },
+  {
+    "data_table_pk": 106,
+    "data_owner": 2,
+    "data_air_temp": 19,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 06:05:15"
+  },
+  {
+    "data_table_pk": 107,
+    "data_owner": 2,
+    "data_air_temp": 19,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 06:15:15"
+  },
+  {
+    "data_table_pk": 108,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 06:25:15"
+  },
+  {
+    "data_table_pk": 109,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 48.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 06:35:15"
+  },
+  {
+    "data_table_pk": 110,
+    "data_owner": 2,
+    "data_air_temp": 18.8,
+    "data_air_hum": 48.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 06:45:15"
+  },
+  {
+    "data_table_pk": 111,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 06:55:15"
+  },
+  {
+    "data_table_pk": 112,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 07:05:15"
+  },
+  {
+    "data_table_pk": 113,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 48.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 07:15:15"
+  },
+  {
+    "data_table_pk": 114,
+    "data_owner": 2,
+    "data_air_temp": 18.5,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 07:25:15"
+  },
+  {
+    "data_table_pk": 115,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 07:35:15"
+  },
+  {
+    "data_table_pk": 116,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 48.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 07:45:15"
+  },
+  {
+    "data_table_pk": 117,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 49,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 07:55:15"
+  },
+  {
+    "data_table_pk": 118,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 08:05:15"
+  },
+  {
+    "data_table_pk": 119,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 08:15:15"
+  },
+  {
+    "data_table_pk": 120,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 49.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 08:25:15"
+  },
+  {
+    "data_table_pk": 121,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 08:35:15"
+  },
+  {
+    "data_table_pk": 122,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 49.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 08:45:15"
+  },
+  {
+    "data_table_pk": 123,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 08:55:15"
+  },
+  {
+    "data_table_pk": 124,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 09:05:15"
+  },
+  {
+    "data_table_pk": 125,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 48.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 09:15:15"
+  },
+  {
+    "data_table_pk": 126,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 09:25:15"
+  },
+  {
+    "data_table_pk": 127,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 48.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 09:35:15"
+  },
+  {
+    "data_table_pk": 128,
+    "data_owner": 2,
+    "data_air_temp": 17.9,
+    "data_air_hum": 48.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 09:45:15"
+  },
+  {
+    "data_table_pk": 129,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 48.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 09:55:15"
+  },
+  {
+    "data_table_pk": 130,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 48.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 10:05:15"
+  },
+  {
+    "data_table_pk": 131,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 10:15:15"
+  },
+  {
+    "data_table_pk": 132,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 47.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 10:25:15"
+  },
+  {
+    "data_table_pk": 133,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 47.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 10:35:15"
+  },
+  {
+    "data_table_pk": 134,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 48.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 10:45:15"
+  },
+  {
+    "data_table_pk": 135,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 48,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 10:55:15"
+  },
+  {
+    "data_table_pk": 136,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 11:05:15"
+  },
+  {
+    "data_table_pk": 137,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 11:15:15"
+  },
+  {
+    "data_table_pk": 138,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 47.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 11:25:15"
+  },
+  {
+    "data_table_pk": 139,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 47.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 11:35:15"
+  },
+  {
+    "data_table_pk": 140,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 11:45:15"
+  },
+  {
+    "data_table_pk": 141,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 48.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 11:55:15"
+  },
+  {
+    "data_table_pk": 142,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 47.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 12:05:15"
+  },
+  {
+    "data_table_pk": 143,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 48.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 12:15:15"
+  },
+  {
+    "data_table_pk": 144,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 12:25:15"
+  },
+  {
+    "data_table_pk": 145,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 47.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 12:35:15"
+  },
+  {
+    "data_table_pk": 146,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 47.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 12:45:15"
+  },
+  {
+    "data_table_pk": 147,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 12:55:15"
+  },
+  {
+    "data_table_pk": 148,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 47.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 13:05:15"
+  },
+  {
+    "data_table_pk": 149,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 47.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 13:15:15"
+  },
+  {
+    "data_table_pk": 150,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 13:25:15"
+  },
+  {
+    "data_table_pk": 151,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 47.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 13:35:15"
+  },
+  {
+    "data_table_pk": 152,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 47.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 13:45:15"
+  },
+  {
+    "data_table_pk": 153,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 13:55:15"
+  },
+  {
+    "data_table_pk": 154,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 48,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 14:05:15"
+  },
+  {
+    "data_table_pk": 155,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 14:15:15"
+  },
+  {
+    "data_table_pk": 156,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 46.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 14:25:15"
+  },
+  {
+    "data_table_pk": 157,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 46.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 14:35:15"
+  },
+  {
+    "data_table_pk": 158,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 14:45:15"
+  },
+  {
+    "data_table_pk": 159,
+    "data_owner": 2,
+    "data_air_temp": 19.2,
+    "data_air_hum": 45.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 14:55:15"
+  },
+  {
+    "data_table_pk": 160,
+    "data_owner": 2,
+    "data_air_temp": 19.5,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 15:05:15"
+  },
+  {
+    "data_table_pk": 161,
+    "data_owner": 2,
+    "data_air_temp": 19.7,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 15:15:15"
+  },
+  {
+    "data_table_pk": 162,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 49.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 15:25:15"
+  },
+  {
+    "data_table_pk": 163,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 48.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 15:35:15"
+  },
+  {
+    "data_table_pk": 164,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 47,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 15:45:15"
+  },
+  {
+    "data_table_pk": 165,
+    "data_owner": 2,
+    "data_air_temp": 20.4,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 15:55:15"
+  },
+  {
+    "data_table_pk": 166,
+    "data_owner": 2,
+    "data_air_temp": 20.5,
+    "data_air_hum": 45.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 16:05:15"
+  },
+  {
+    "data_table_pk": 167,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 44.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 16:15:15"
+  },
+  {
+    "data_table_pk": 168,
+    "data_owner": 2,
+    "data_air_temp": 21.6,
+    "data_air_hum": 42.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 16:25:15"
+  },
+  {
+    "data_table_pk": 169,
+    "data_owner": 2,
+    "data_air_temp": 21.4,
+    "data_air_hum": 42.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 16:35:15"
+  },
+  {
+    "data_table_pk": 170,
+    "data_owner": 2,
+    "data_air_temp": 21.6,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 16:45:15"
+  },
+  {
+    "data_table_pk": 171,
+    "data_owner": 2,
+    "data_air_temp": 22.2,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 16:55:15"
+  },
+  {
+    "data_table_pk": 172,
+    "data_owner": 2,
+    "data_air_temp": 22.2,
+    "data_air_hum": 42,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 17:05:15"
+  },
+  {
+    "data_table_pk": 173,
+    "data_owner": 2,
+    "data_air_temp": 22.4,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 17:15:15"
+  },
+  {
+    "data_table_pk": 174,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 17:25:15"
+  },
+  {
+    "data_table_pk": 175,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 39.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 17:35:15"
+  },
+  {
+    "data_table_pk": 176,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 39.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 17:45:15"
+  },
+  {
+    "data_table_pk": 177,
+    "data_owner": 2,
+    "data_air_temp": 22.7,
+    "data_air_hum": 38.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 17:55:15"
+  },
+  {
+    "data_table_pk": 178,
+    "data_owner": 2,
+    "data_air_temp": 21.9,
+    "data_air_hum": 40.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 18:05:15"
+  },
+  {
+    "data_table_pk": 179,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 41.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 18:15:15"
+  },
+  {
+    "data_table_pk": 180,
+    "data_owner": 2,
+    "data_air_temp": 22.5,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 18:25:15"
+  },
+  {
+    "data_table_pk": 181,
+    "data_owner": 2,
+    "data_air_temp": 22.5,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 18:35:15"
+  },
+  {
+    "data_table_pk": 182,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 18:45:15"
+  },
+  {
+    "data_table_pk": 183,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 37.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 18:55:15"
+  },
+  {
+    "data_table_pk": 184,
+    "data_owner": 2,
+    "data_air_temp": 21.4,
+    "data_air_hum": 38.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 19:05:15"
+  },
+  {
+    "data_table_pk": 185,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 38.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 19:15:15"
+  },
+  {
+    "data_table_pk": 186,
+    "data_owner": 2,
+    "data_air_temp": 21.3,
+    "data_air_hum": 38.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 19:25:15"
+  },
+  {
+    "data_table_pk": 187,
+    "data_owner": 2,
+    "data_air_temp": 21.7,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 19:35:15"
+  },
+  {
+    "data_table_pk": 188,
+    "data_owner": 2,
+    "data_air_temp": 21.7,
+    "data_air_hum": 38.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 19:45:15"
+  },
+  {
+    "data_table_pk": 189,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 19:55:15"
+  },
+  {
+    "data_table_pk": 190,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 20:05:15"
+  },
+  {
+    "data_table_pk": 191,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 20:15:15"
+  },
+  {
+    "data_table_pk": 192,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 41.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 20:25:15"
+  },
+  {
+    "data_table_pk": 193,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 40.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 20:35:15"
+  },
+  {
+    "data_table_pk": 194,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 20:45:15"
+  },
+  {
+    "data_table_pk": 195,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 20:55:15"
+  },
+  {
+    "data_table_pk": 196,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 21:05:15"
+  },
+  {
+    "data_table_pk": 197,
+    "data_owner": 2,
+    "data_air_temp": 20,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 21:15:15"
+  },
+  {
+    "data_table_pk": 198,
+    "data_owner": 2,
+    "data_air_temp": 19.8,
+    "data_air_hum": 51.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 22:15:15"
+  },
+  {
+    "data_table_pk": 199,
+    "data_owner": 2,
+    "data_air_temp": 20.4,
+    "data_air_hum": 47.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 22:25:15"
+  },
+  {
+    "data_table_pk": 200,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 46.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 22:35:15"
+  },
+  {
+    "data_table_pk": 201,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 44,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 22:45:15"
+  },
+  {
+    "data_table_pk": 202,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 43.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 22:55:15"
+  },
+  {
+    "data_table_pk": 203,
+    "data_owner": 2,
+    "data_air_temp": 21.5,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 23:05:15"
+  },
+  {
+    "data_table_pk": 204,
+    "data_owner": 2,
+    "data_air_temp": 21.9,
+    "data_air_hum": 40.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 23:15:15"
+  },
+  {
+    "data_table_pk": 205,
+    "data_owner": 2,
+    "data_air_temp": 22.3,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 23:25:15"
+  },
+  {
+    "data_table_pk": 206,
+    "data_owner": 2,
+    "data_air_temp": 22.4,
+    "data_air_hum": 38.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 23:35:15"
+  },
+  {
+    "data_table_pk": 207,
+    "data_owner": 2,
+    "data_air_temp": 22.5,
+    "data_air_hum": 38.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 23:45:15"
+  },
+  {
+    "data_table_pk": 208,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-22 23:55:15"
+  },
+  {
+    "data_table_pk": 209,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 37.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 00:05:15"
+  },
+  {
+    "data_table_pk": 210,
+    "data_owner": 2,
+    "data_air_temp": 22.5,
+    "data_air_hum": 38,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 00:15:15"
+  },
+  {
+    "data_table_pk": 211,
+    "data_owner": 2,
+    "data_air_temp": 22.5,
+    "data_air_hum": 37.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 00:25:15"
+  },
+  {
+    "data_table_pk": 212,
+    "data_owner": 2,
+    "data_air_temp": 22.4,
+    "data_air_hum": 38.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 00:35:15"
+  },
+  {
+    "data_table_pk": 213,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 38.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 00:45:15"
+  },
+  {
+    "data_table_pk": 214,
+    "data_owner": 2,
+    "data_air_temp": 22.4,
+    "data_air_hum": 38.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 00:55:15"
+  },
+  {
+    "data_table_pk": 215,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 39.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 01:05:15"
+  },
+  {
+    "data_table_pk": 216,
+    "data_owner": 2,
+    "data_air_temp": 22.2,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 01:15:15"
+  },
+  {
+    "data_table_pk": 217,
+    "data_owner": 2,
+    "data_air_temp": 21.8,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 01:25:15"
+  },
+  {
+    "data_table_pk": 218,
+    "data_owner": 2,
+    "data_air_temp": 21.6,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 01:35:15"
+  },
+  {
+    "data_table_pk": 219,
+    "data_owner": 2,
+    "data_air_temp": 21.4,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 01:45:15"
+  },
+  {
+    "data_table_pk": 220,
+    "data_owner": 2,
+    "data_air_temp": 21.3,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 01:55:15"
+  },
+  {
+    "data_table_pk": 221,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 02:05:15"
+  },
+  {
+    "data_table_pk": 222,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 02:15:15"
+  },
+  {
+    "data_table_pk": 223,
+    "data_owner": 2,
+    "data_air_temp": 19.5,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 02:25:15"
+  },
+  {
+    "data_table_pk": 224,
+    "data_owner": 2,
+    "data_air_temp": 19.1,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 02:35:15"
+  },
+  {
+    "data_table_pk": 225,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 02:45:15"
+  },
+  {
+    "data_table_pk": 226,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 43.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 02:55:15"
+  },
+  {
+    "data_table_pk": 227,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 44.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 03:05:15"
+  },
+  {
+    "data_table_pk": 228,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 03:15:15"
+  },
+  {
+    "data_table_pk": 229,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 44.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 03:25:15"
+  },
+  {
+    "data_table_pk": 230,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 03:35:15"
+  },
+  {
+    "data_table_pk": 231,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 45.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 03:45:15"
+  },
+  {
+    "data_table_pk": 232,
+    "data_owner": 2,
+    "data_air_temp": 17.1,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 03:55:15"
+  },
+  {
+    "data_table_pk": 233,
+    "data_owner": 2,
+    "data_air_temp": 17,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 04:05:15"
+  },
+  {
+    "data_table_pk": 234,
+    "data_owner": 2,
+    "data_air_temp": 16.8,
+    "data_air_hum": 46.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 04:15:15"
+  },
+  {
+    "data_table_pk": 235,
+    "data_owner": 2,
+    "data_air_temp": 16.8,
+    "data_air_hum": 46.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 04:25:15"
+  },
+  {
+    "data_table_pk": 236,
+    "data_owner": 2,
+    "data_air_temp": 16.6,
+    "data_air_hum": 47.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 04:35:15"
+  },
+  {
+    "data_table_pk": 237,
+    "data_owner": 2,
+    "data_air_temp": 16.5,
+    "data_air_hum": 47.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 04:45:15"
+  },
+  {
+    "data_table_pk": 238,
+    "data_owner": 2,
+    "data_air_temp": 16.4,
+    "data_air_hum": 47.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 04:55:15"
+  },
+  {
+    "data_table_pk": 239,
+    "data_owner": 2,
+    "data_air_temp": 16.3,
+    "data_air_hum": 46.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 05:05:15"
+  },
+  {
+    "data_table_pk": 240,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 47.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 05:15:15"
+  },
+  {
+    "data_table_pk": 241,
+    "data_owner": 2,
+    "data_air_temp": 16,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 05:25:15"
+  },
+  {
+    "data_table_pk": 242,
+    "data_owner": 2,
+    "data_air_temp": 15.9,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 05:35:15"
+  },
+  {
+    "data_table_pk": 243,
+    "data_owner": 2,
+    "data_air_temp": 15.8,
+    "data_air_hum": 47.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 05:45:15"
+  },
+  {
+    "data_table_pk": 244,
+    "data_owner": 2,
+    "data_air_temp": 15.7,
+    "data_air_hum": 48,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 05:55:15"
+  },
+  {
+    "data_table_pk": 245,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 48.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 06:05:15"
+  },
+  {
+    "data_table_pk": 246,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 48.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 06:15:15"
+  },
+  {
+    "data_table_pk": 247,
+    "data_owner": 2,
+    "data_air_temp": 15.5,
+    "data_air_hum": 48.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 06:25:15"
+  },
+  {
+    "data_table_pk": 248,
+    "data_owner": 2,
+    "data_air_temp": 15.4,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 06:35:15"
+  },
+  {
+    "data_table_pk": 249,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 49.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 06:45:15"
+  },
+  {
+    "data_table_pk": 250,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 49.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 06:55:15"
+  },
+  {
+    "data_table_pk": 251,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 49.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 07:05:15"
+  },
+  {
+    "data_table_pk": 252,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 49.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 07:15:15"
+  },
+  {
+    "data_table_pk": 253,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 49.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 07:25:15"
+  },
+  {
+    "data_table_pk": 254,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 50,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 07:35:15"
+  },
+  {
+    "data_table_pk": 255,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 50.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 07:45:15"
+  },
+  {
+    "data_table_pk": 256,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 50.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 07:55:15"
+  },
+  {
+    "data_table_pk": 257,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 50.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 08:05:15"
+  },
+  {
+    "data_table_pk": 258,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 08:15:15"
+  },
+  {
+    "data_table_pk": 259,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 08:25:15"
+  },
+  {
+    "data_table_pk": 260,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 50.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 08:35:15"
+  },
+  {
+    "data_table_pk": 261,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 51,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 08:45:15"
+  },
+  {
+    "data_table_pk": 262,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 51.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 08:55:15"
+  },
+  {
+    "data_table_pk": 263,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 51.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 09:05:15"
+  },
+  {
+    "data_table_pk": 264,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 51.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 09:15:15"
+  },
+  {
+    "data_table_pk": 265,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 51.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 09:25:15"
+  },
+  {
+    "data_table_pk": 266,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 51.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 09:35:15"
+  },
+  {
+    "data_table_pk": 267,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 51.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 09:45:15"
+  },
+  {
+    "data_table_pk": 268,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 51.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 09:55:15"
+  },
+  {
+    "data_table_pk": 269,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 51.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 10:05:15"
+  },
+  {
+    "data_table_pk": 270,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 50.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 10:15:15"
+  },
+  {
+    "data_table_pk": 271,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 51,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 10:25:15"
+  },
+  {
+    "data_table_pk": 272,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 51.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 10:35:15"
+  },
+  {
+    "data_table_pk": 273,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 51.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 10:45:15"
+  },
+  {
+    "data_table_pk": 274,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 51.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 10:55:15"
+  },
+  {
+    "data_table_pk": 275,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 51.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 11:05:15"
+  },
+  {
+    "data_table_pk": 276,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 51.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 11:15:15"
+  },
+  {
+    "data_table_pk": 277,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 50.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 11:25:15"
+  },
+  {
+    "data_table_pk": 278,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 11:35:15"
+  },
+  {
+    "data_table_pk": 279,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 11:45:15"
+  },
+  {
+    "data_table_pk": 280,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 50.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 11:55:15"
+  },
+  {
+    "data_table_pk": 281,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 50.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 12:05:15"
+  },
+  {
+    "data_table_pk": 282,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 50.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 12:15:15"
+  },
+  {
+    "data_table_pk": 283,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 12:25:15"
+  },
+  {
+    "data_table_pk": 284,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 50,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 12:35:15"
+  },
+  {
+    "data_table_pk": 285,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 49.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 12:45:15"
+  },
+  {
+    "data_table_pk": 286,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 49.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 12:55:15"
+  },
+  {
+    "data_table_pk": 287,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 49.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 13:05:15"
+  },
+  {
+    "data_table_pk": 288,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 49.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 13:15:15"
+  },
+  {
+    "data_table_pk": 289,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 49.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 13:25:15"
+  },
+  {
+    "data_table_pk": 290,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 49.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 13:35:15"
+  },
+  {
+    "data_table_pk": 291,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 49,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 13:45:15"
+  },
+  {
+    "data_table_pk": 292,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 49.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 13:55:15"
+  },
+  {
+    "data_table_pk": 293,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 49.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 14:05:15"
+  },
+  {
+    "data_table_pk": 294,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 14:15:15"
+  },
+  {
+    "data_table_pk": 295,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 14:25:15"
+  },
+  {
+    "data_table_pk": 296,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 14:35:15"
+  },
+  {
+    "data_table_pk": 297,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 14:45:15"
+  },
+  {
+    "data_table_pk": 298,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 50.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 14:55:15"
+  },
+  {
+    "data_table_pk": 299,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 49.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 15:05:15"
+  },
+  {
+    "data_table_pk": 300,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 50.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 15:15:15"
+  },
+  {
+    "data_table_pk": 301,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 49.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 15:25:15"
+  },
+  {
+    "data_table_pk": 302,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 15:35:15"
+  },
+  {
+    "data_table_pk": 303,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 47.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 15:45:15"
+  },
+  {
+    "data_table_pk": 304,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 48,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 15:55:15"
+  },
+  {
+    "data_table_pk": 305,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 47.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 16:05:15"
+  },
+  {
+    "data_table_pk": 306,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 48.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 16:15:15"
+  },
+  {
+    "data_table_pk": 307,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 46.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 16:25:15"
+  },
+  {
+    "data_table_pk": 308,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 46.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 16:35:15"
+  },
+  {
+    "data_table_pk": 309,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 16:45:15"
+  },
+  {
+    "data_table_pk": 310,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 45.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 16:55:15"
+  },
+  {
+    "data_table_pk": 311,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 45.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 17:05:15"
+  },
+  {
+    "data_table_pk": 312,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 44.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 17:15:15"
+  },
+  {
+    "data_table_pk": 313,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 17:25:15"
+  },
+  {
+    "data_table_pk": 314,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 17:35:15"
+  },
+  {
+    "data_table_pk": 315,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 48.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 17:45:15"
+  },
+  {
+    "data_table_pk": 316,
+    "data_owner": 2,
+    "data_air_temp": 16.2,
+    "data_air_hum": 44.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 17:55:15"
+  },
+  {
+    "data_table_pk": 317,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 43.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 18:05:15"
+  },
+  {
+    "data_table_pk": 318,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 43.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 18:15:15"
+  },
+  {
+    "data_table_pk": 319,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 43.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 18:25:15"
+  },
+  {
+    "data_table_pk": 320,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 43.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 18:35:15"
+  },
+  {
+    "data_table_pk": 321,
+    "data_owner": 2,
+    "data_air_temp": 16.8,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 18:53:14"
+  },
+  {
+    "data_table_pk": 322,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 40.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 19:03:14"
+  },
+  {
+    "data_table_pk": 323,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 19:13:14"
+  },
+  {
+    "data_table_pk": 324,
+    "data_owner": 2,
+    "data_air_temp": 18.5,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 19:23:14"
+  },
+  {
+    "data_table_pk": 325,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 19:33:14"
+  },
+  {
+    "data_table_pk": 326,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 37.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 19:43:14"
+  },
+  {
+    "data_table_pk": 327,
+    "data_owner": 2,
+    "data_air_temp": 19.3,
+    "data_air_hum": 37,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 19:53:14"
+  },
+  {
+    "data_table_pk": 328,
+    "data_owner": 2,
+    "data_air_temp": 19.2,
+    "data_air_hum": 36.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 20:03:14"
+  },
+  {
+    "data_table_pk": 329,
+    "data_owner": 2,
+    "data_air_temp": 19.4,
+    "data_air_hum": 36.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 20:13:14"
+  },
+  {
+    "data_table_pk": 330,
+    "data_owner": 2,
+    "data_air_temp": 19.1,
+    "data_air_hum": 36.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 20:23:14"
+  },
+  {
+    "data_table_pk": 331,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 37.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 20:33:14"
+  },
+  {
+    "data_table_pk": 332,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 40.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 20:43:14"
+  },
+  {
+    "data_table_pk": 333,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 20:53:14"
+  },
+  {
+    "data_table_pk": 334,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 40.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 21:03:14"
+  },
+  {
+    "data_table_pk": 335,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 39.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 21:13:14"
+  },
+  {
+    "data_table_pk": 336,
+    "data_owner": 2,
+    "data_air_temp": 17,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 21:23:14"
+  },
+  {
+    "data_table_pk": 337,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 43.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 21:33:14"
+  },
+  {
+    "data_table_pk": 338,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 43.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 21:43:14"
+  },
+  {
+    "data_table_pk": 339,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 21:53:14"
+  },
+  {
+    "data_table_pk": 340,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 22:03:14"
+  },
+  {
+    "data_table_pk": 341,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 22:13:14"
+  },
+  {
+    "data_table_pk": 342,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 22:23:14"
+  },
+  {
+    "data_table_pk": 343,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 42.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 22:33:14"
+  },
+  {
+    "data_table_pk": 344,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 40.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 22:43:14"
+  },
+  {
+    "data_table_pk": 345,
+    "data_owner": 2,
+    "data_air_temp": 20.5,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 22:53:14"
+  },
+  {
+    "data_table_pk": 346,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 38,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 23:03:14"
+  },
+  {
+    "data_table_pk": 347,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 37.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 23:13:14"
+  },
+  {
+    "data_table_pk": 348,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 23:23:14"
+  },
+  {
+    "data_table_pk": 349,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 36.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 23:33:14"
+  },
+  {
+    "data_table_pk": 350,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 23:43:14"
+  },
+  {
+    "data_table_pk": 351,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-23 23:53:14"
+  },
+  {
+    "data_table_pk": 352,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 00:03:14"
+  },
+  {
+    "data_table_pk": 353,
+    "data_owner": 2,
+    "data_air_temp": 21.3,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 00:13:14"
+  },
+  {
+    "data_table_pk": 354,
+    "data_owner": 2,
+    "data_air_temp": 21.3,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 00:23:14"
+  },
+  {
+    "data_table_pk": 355,
+    "data_owner": 2,
+    "data_air_temp": 21.3,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 00:33:14"
+  },
+  {
+    "data_table_pk": 356,
+    "data_owner": 2,
+    "data_air_temp": 21.4,
+    "data_air_hum": 35,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 00:43:14"
+  },
+  {
+    "data_table_pk": 357,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 35.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 00:53:14"
+  },
+  {
+    "data_table_pk": 358,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 35.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 01:03:14"
+  },
+  {
+    "data_table_pk": 359,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 01:13:14"
+  },
+  {
+    "data_table_pk": 360,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 01:23:14"
+  },
+  {
+    "data_table_pk": 361,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 01:33:14"
+  },
+  {
+    "data_table_pk": 362,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 01:43:14"
+  },
+  {
+    "data_table_pk": 363,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 01:53:14"
+  },
+  {
+    "data_table_pk": 364,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 02:03:14"
+  },
+  {
+    "data_table_pk": 365,
+    "data_owner": 2,
+    "data_air_temp": 20.8,
+    "data_air_hum": 35.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 02:13:14"
+  },
+  {
+    "data_table_pk": 366,
+    "data_owner": 2,
+    "data_air_temp": 20.8,
+    "data_air_hum": 35.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 02:23:14"
+  },
+  {
+    "data_table_pk": 367,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 35.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 02:33:14"
+  },
+  {
+    "data_table_pk": 368,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 35,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 02:43:14"
+  },
+  {
+    "data_table_pk": 369,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 34.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 02:53:14"
+  },
+  {
+    "data_table_pk": 370,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 34.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 03:03:14"
+  },
+  {
+    "data_table_pk": 371,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 34.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 03:13:14"
+  },
+  {
+    "data_table_pk": 372,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 34.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 03:23:14"
+  },
+  {
+    "data_table_pk": 373,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 34.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 03:33:14"
+  },
+  {
+    "data_table_pk": 374,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 34.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 03:43:14"
+  },
+  {
+    "data_table_pk": 375,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 35.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 03:53:14"
+  },
+  {
+    "data_table_pk": 376,
+    "data_owner": 2,
+    "data_air_temp": 19.4,
+    "data_air_hum": 35.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 04:03:14"
+  },
+  {
+    "data_table_pk": 377,
+    "data_owner": 2,
+    "data_air_temp": 19,
+    "data_air_hum": 36.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 04:13:14"
+  },
+  {
+    "data_table_pk": 378,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 36.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 04:23:14"
+  },
+  {
+    "data_table_pk": 379,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 37.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 04:33:14"
+  },
+  {
+    "data_table_pk": 380,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 37.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 04:43:14"
+  },
+  {
+    "data_table_pk": 381,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 38.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 04:53:14"
+  },
+  {
+    "data_table_pk": 382,
+    "data_owner": 2,
+    "data_air_temp": 17,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 05:03:14"
+  },
+  {
+    "data_table_pk": 383,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 05:13:14"
+  },
+  {
+    "data_table_pk": 384,
+    "data_owner": 2,
+    "data_air_temp": 16.5,
+    "data_air_hum": 39.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 05:23:14"
+  },
+  {
+    "data_table_pk": 385,
+    "data_owner": 2,
+    "data_air_temp": 16.3,
+    "data_air_hum": 40,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 05:33:14"
+  },
+  {
+    "data_table_pk": 386,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 40.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 05:43:14"
+  },
+  {
+    "data_table_pk": 387,
+    "data_owner": 2,
+    "data_air_temp": 15.9,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 05:53:14"
+  },
+  {
+    "data_table_pk": 388,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 40.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 06:03:14"
+  },
+  {
+    "data_table_pk": 389,
+    "data_owner": 2,
+    "data_air_temp": 15.4,
+    "data_air_hum": 40.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 06:13:14"
+  },
+  {
+    "data_table_pk": 390,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 41,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 06:23:14"
+  },
+  {
+    "data_table_pk": 391,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 41.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 06:33:14"
+  },
+  {
+    "data_table_pk": 392,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 06:43:14"
+  },
+  {
+    "data_table_pk": 393,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 06:53:14"
+  },
+  {
+    "data_table_pk": 394,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 41.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 07:03:14"
+  },
+  {
+    "data_table_pk": 395,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 07:13:14"
+  },
+  {
+    "data_table_pk": 396,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 41.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 07:23:14"
+  },
+  {
+    "data_table_pk": 397,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 41.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 07:33:14"
+  },
+  {
+    "data_table_pk": 398,
+    "data_owner": 2,
+    "data_air_temp": 14,
+    "data_air_hum": 42,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 07:43:14"
+  },
+  {
+    "data_table_pk": 399,
+    "data_owner": 2,
+    "data_air_temp": 13.9,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 07:53:14"
+  },
+  {
+    "data_table_pk": 400,
+    "data_owner": 2,
+    "data_air_temp": 13.8,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 08:03:14"
+  },
+  {
+    "data_table_pk": 401,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 42.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 08:13:14"
+  },
+  {
+    "data_table_pk": 402,
+    "data_owner": 2,
+    "data_air_temp": 13.6,
+    "data_air_hum": 42.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 08:23:14"
+  },
+  {
+    "data_table_pk": 403,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 08:33:14"
+  },
+  {
+    "data_table_pk": 404,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 08:43:14"
+  },
+  {
+    "data_table_pk": 405,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 42.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 08:53:14"
+  },
+  {
+    "data_table_pk": 406,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 42.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 09:03:14"
+  },
+  {
+    "data_table_pk": 407,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 09:13:14"
+  },
+  {
+    "data_table_pk": 408,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 41.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 09:23:14"
+  },
+  {
+    "data_table_pk": 409,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 41.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 09:33:14"
+  },
+  {
+    "data_table_pk": 410,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 40.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 09:43:14"
+  },
+  {
+    "data_table_pk": 411,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 40.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 09:53:14"
+  },
+  {
+    "data_table_pk": 412,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 10:03:14"
+  },
+  {
+    "data_table_pk": 413,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 39.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 10:13:14"
+  },
+  {
+    "data_table_pk": 414,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 39.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 10:23:14"
+  },
+  {
+    "data_table_pk": 415,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 10:33:14"
+  },
+  {
+    "data_table_pk": 416,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 39.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 10:43:14"
+  },
+  {
+    "data_table_pk": 417,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 38.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 10:53:14"
+  },
+  {
+    "data_table_pk": 418,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 38.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 11:03:14"
+  },
+  {
+    "data_table_pk": 419,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 11:13:14"
+  },
+  {
+    "data_table_pk": 420,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 37.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 11:23:14"
+  },
+  {
+    "data_table_pk": 421,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 38,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 11:33:14"
+  },
+  {
+    "data_table_pk": 422,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 38,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 11:43:14"
+  },
+  {
+    "data_table_pk": 423,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 37.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 11:53:14"
+  },
+  {
+    "data_table_pk": 424,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 38.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 12:03:14"
+  },
+  {
+    "data_table_pk": 425,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 38.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 12:13:14"
+  },
+  {
+    "data_table_pk": 426,
+    "data_owner": 2,
+    "data_air_temp": 13.6,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 12:23:14"
+  },
+  {
+    "data_table_pk": 427,
+    "data_owner": 2,
+    "data_air_temp": 13.6,
+    "data_air_hum": 38.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 12:33:14"
+  },
+  {
+    "data_table_pk": 428,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 12:43:14"
+  },
+  {
+    "data_table_pk": 429,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 12:53:14"
+  },
+  {
+    "data_table_pk": 430,
+    "data_owner": 2,
+    "data_air_temp": 13.8,
+    "data_air_hum": 40.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 13:03:14"
+  },
+  {
+    "data_table_pk": 431,
+    "data_owner": 2,
+    "data_air_temp": 13.9,
+    "data_air_hum": 40.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 13:13:14"
+  },
+  {
+    "data_table_pk": 432,
+    "data_owner": 2,
+    "data_air_temp": 14,
+    "data_air_hum": 40.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 13:23:14"
+  },
+  {
+    "data_table_pk": 433,
+    "data_owner": 2,
+    "data_air_temp": 14,
+    "data_air_hum": 40.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 13:33:14"
+  },
+  {
+    "data_table_pk": 434,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 41.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 13:43:14"
+  },
+  {
+    "data_table_pk": 435,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 13:53:14"
+  },
+  {
+    "data_table_pk": 436,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 14:03:14"
+  },
+  {
+    "data_table_pk": 437,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 14:13:14"
+  },
+  {
+    "data_table_pk": 438,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 37.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 14:23:14"
+  },
+  {
+    "data_table_pk": 439,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 14:33:14"
+  },
+  {
+    "data_table_pk": 440,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 36.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 14:43:14"
+  },
+  {
+    "data_table_pk": 441,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 35.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 14:53:14"
+  },
+  {
+    "data_table_pk": 442,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 15:03:14"
+  },
+  {
+    "data_table_pk": 443,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 35.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 15:13:14"
+  },
+  {
+    "data_table_pk": 444,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 36.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 15:23:14"
+  },
+  {
+    "data_table_pk": 445,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 15:33:14"
+  },
+  {
+    "data_table_pk": 446,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 38.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 15:43:14"
+  },
+  {
+    "data_table_pk": 447,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 38.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 15:53:14"
+  },
+  {
+    "data_table_pk": 448,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 38,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 16:03:14"
+  },
+  {
+    "data_table_pk": 449,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 16:13:14"
+  },
+  {
+    "data_table_pk": 450,
+    "data_owner": 2,
+    "data_air_temp": 17.9,
+    "data_air_hum": 37.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 16:23:14"
+  },
+  {
+    "data_table_pk": 451,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 36,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 16:33:14"
+  },
+  {
+    "data_table_pk": 452,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 35.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 16:43:14"
+  },
+  {
+    "data_table_pk": 453,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 36.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 16:53:14"
+  },
+  {
+    "data_table_pk": 454,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 35.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 17:03:14"
+  },
+  {
+    "data_table_pk": 455,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 35.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 17:13:14"
+  },
+  {
+    "data_table_pk": 456,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 36.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 17:23:14"
+  },
+  {
+    "data_table_pk": 457,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 17:33:14"
+  },
+  {
+    "data_table_pk": 458,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 36.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 17:43:14"
+  },
+  {
+    "data_table_pk": 459,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 36.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 17:53:14"
+  },
+  {
+    "data_table_pk": 460,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 36.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 18:03:14"
+  },
+  {
+    "data_table_pk": 461,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 37.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 18:13:14"
+  },
+  {
+    "data_table_pk": 462,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 18:23:14"
+  },
+  {
+    "data_table_pk": 463,
+    "data_owner": 2,
+    "data_air_temp": 17.9,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 18:33:14"
+  },
+  {
+    "data_table_pk": 464,
+    "data_owner": 2,
+    "data_air_temp": 17.9,
+    "data_air_hum": 43.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 18:43:14"
+  },
+  {
+    "data_table_pk": 465,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 45.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 18:53:14"
+  },
+  {
+    "data_table_pk": 466,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 50.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 19:03:14"
+  },
+  {
+    "data_table_pk": 467,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 57.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 19:13:14"
+  },
+  {
+    "data_table_pk": 468,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 57.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 19:23:14"
+  },
+  {
+    "data_table_pk": 469,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 58.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 19:33:14"
+  },
+  {
+    "data_table_pk": 470,
+    "data_owner": 2,
+    "data_air_temp": 19.1,
+    "data_air_hum": 54.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 19:43:14"
+  },
+  {
+    "data_table_pk": 471,
+    "data_owner": 2,
+    "data_air_temp": 19.3,
+    "data_air_hum": 61,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 19:53:14"
+  },
+  {
+    "data_table_pk": 472,
+    "data_owner": 2,
+    "data_air_temp": 19.3,
+    "data_air_hum": 56.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 20:03:14"
+  },
+  {
+    "data_table_pk": 473,
+    "data_owner": 2,
+    "data_air_temp": 19.2,
+    "data_air_hum": 53.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 20:13:14"
+  },
+  {
+    "data_table_pk": 474,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 53,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 20:23:14"
+  },
+  {
+    "data_table_pk": 475,
+    "data_owner": 2,
+    "data_air_temp": 18.5,
+    "data_air_hum": 49.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 20:33:14"
+  },
+  {
+    "data_table_pk": 476,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 50.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 20:43:14"
+  },
+  {
+    "data_table_pk": 477,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 47.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 20:53:14"
+  },
+  {
+    "data_table_pk": 478,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 46.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 21:03:14"
+  },
+  {
+    "data_table_pk": 479,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 45.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 21:13:14"
+  },
+  {
+    "data_table_pk": 480,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 44.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 21:23:14"
+  },
+  {
+    "data_table_pk": 481,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 21:33:14"
+  },
+  {
+    "data_table_pk": 482,
+    "data_owner": 2,
+    "data_air_temp": 17.1,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 21:43:14"
+  },
+  {
+    "data_table_pk": 483,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 43.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 21:53:14"
+  },
+  {
+    "data_table_pk": 484,
+    "data_owner": 2,
+    "data_air_temp": 16.8,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 22:03:14"
+  },
+  {
+    "data_table_pk": 485,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 22:13:14"
+  },
+  {
+    "data_table_pk": 486,
+    "data_owner": 2,
+    "data_air_temp": 16.6,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 22:23:14"
+  },
+  {
+    "data_table_pk": 487,
+    "data_owner": 2,
+    "data_air_temp": 16.5,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 22:33:14"
+  },
+  {
+    "data_table_pk": 488,
+    "data_owner": 2,
+    "data_air_temp": 16.4,
+    "data_air_hum": 41.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 22:43:14"
+  },
+  {
+    "data_table_pk": 489,
+    "data_owner": 2,
+    "data_air_temp": 16.3,
+    "data_air_hum": 40.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 22:53:14"
+  },
+  {
+    "data_table_pk": 490,
+    "data_owner": 2,
+    "data_air_temp": 16.2,
+    "data_air_hum": 40.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 23:03:14"
+  },
+  {
+    "data_table_pk": 491,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 41,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 23:13:14"
+  },
+  {
+    "data_table_pk": 492,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 41,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 23:23:14"
+  },
+  {
+    "data_table_pk": 493,
+    "data_owner": 2,
+    "data_air_temp": 16,
+    "data_air_hum": 41.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 23:33:14"
+  },
+  {
+    "data_table_pk": 494,
+    "data_owner": 2,
+    "data_air_temp": 17.1,
+    "data_air_hum": 42.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 23:43:14"
+  },
+  {
+    "data_table_pk": 495,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 40.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-24 23:53:14"
+  },
+  {
+    "data_table_pk": 496,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 00:03:14"
+  },
+  {
+    "data_table_pk": 497,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 38.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 00:13:14"
+  },
+  {
+    "data_table_pk": 498,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 37.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 00:23:14"
+  },
+  {
+    "data_table_pk": 499,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 36.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 00:33:14"
+  },
+  {
+    "data_table_pk": 500,
+    "data_owner": 2,
+    "data_air_temp": 21.2,
+    "data_air_hum": 35.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 00:43:14"
+  },
+  {
+    "data_table_pk": 501,
+    "data_owner": 2,
+    "data_air_temp": 19.5,
+    "data_air_hum": 48.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 15:53:14"
+  },
+  {
+    "data_table_pk": 502,
+    "data_owner": 2,
+    "data_air_temp": 19.3,
+    "data_air_hum": 47.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 16:03:14"
+  },
+  {
+    "data_table_pk": 503,
+    "data_owner": 2,
+    "data_air_temp": 19.4,
+    "data_air_hum": 46.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 16:13:14"
+  },
+  {
+    "data_table_pk": 504,
+    "data_owner": 2,
+    "data_air_temp": 19.4,
+    "data_air_hum": 46.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 16:23:14"
+  },
+  {
+    "data_table_pk": 505,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 45.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 16:33:14"
+  },
+  {
+    "data_table_pk": 506,
+    "data_owner": 2,
+    "data_air_temp": 19.8,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 16:43:14"
+  },
+  {
+    "data_table_pk": 507,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 44.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 16:53:14"
+  },
+  {
+    "data_table_pk": 508,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 43.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 17:03:14"
+  },
+  {
+    "data_table_pk": 509,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 42.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 17:13:14"
+  },
+  {
+    "data_table_pk": 510,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 17:23:14"
+  },
+  {
+    "data_table_pk": 511,
+    "data_owner": 2,
+    "data_air_temp": 19.4,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 17:33:14"
+  },
+  {
+    "data_table_pk": 512,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 17:43:14"
+  },
+  {
+    "data_table_pk": 513,
+    "data_owner": 2,
+    "data_air_temp": 20.1,
+    "data_air_hum": 41.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 17:53:14"
+  },
+  {
+    "data_table_pk": 514,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 18:03:14"
+  },
+  {
+    "data_table_pk": 515,
+    "data_owner": 2,
+    "data_air_temp": 20.8,
+    "data_air_hum": 40.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 18:13:14"
+  },
+  {
+    "data_table_pk": 516,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 40.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 18:23:14"
+  },
+  {
+    "data_table_pk": 517,
+    "data_owner": 2,
+    "data_air_temp": 21.3,
+    "data_air_hum": 39.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 18:33:14"
+  },
+  {
+    "data_table_pk": 518,
+    "data_owner": 2,
+    "data_air_temp": 21.6,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 18:43:14"
+  },
+  {
+    "data_table_pk": 519,
+    "data_owner": 2,
+    "data_air_temp": 21.7,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 18:53:14"
+  },
+  {
+    "data_table_pk": 520,
+    "data_owner": 2,
+    "data_air_temp": 21.9,
+    "data_air_hum": 38.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 19:03:14"
+  },
+  {
+    "data_table_pk": 521,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 19:13:14"
+  },
+  {
+    "data_table_pk": 522,
+    "data_owner": 2,
+    "data_air_temp": 21.8,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 19:23:14"
+  },
+  {
+    "data_table_pk": 523,
+    "data_owner": 2,
+    "data_air_temp": 21.6,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 19:33:14"
+  },
+  {
+    "data_table_pk": 524,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 38.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 19:43:14"
+  },
+  {
+    "data_table_pk": 525,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 37.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 19:53:14"
+  },
+  {
+    "data_table_pk": 526,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 37.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 20:03:14"
+  },
+  {
+    "data_table_pk": 527,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 20:13:14"
+  },
+  {
+    "data_table_pk": 528,
+    "data_owner": 2,
+    "data_air_temp": 22.3,
+    "data_air_hum": 37.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 20:23:14"
+  },
+  {
+    "data_table_pk": 529,
+    "data_owner": 2,
+    "data_air_temp": 22.4,
+    "data_air_hum": 36.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 20:33:14"
+  },
+  {
+    "data_table_pk": 530,
+    "data_owner": 2,
+    "data_air_temp": 22.4,
+    "data_air_hum": 36.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 20:43:14"
+  },
+  {
+    "data_table_pk": 531,
+    "data_owner": 2,
+    "data_air_temp": 22.1,
+    "data_air_hum": 37.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 20:53:14"
+  },
+  {
+    "data_table_pk": 532,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 37.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 21:03:14"
+  },
+  {
+    "data_table_pk": 533,
+    "data_owner": 2,
+    "data_air_temp": 22.2,
+    "data_air_hum": 37.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 21:13:14"
+  },
+  {
+    "data_table_pk": 534,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 37.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 21:23:14"
+  },
+  {
+    "data_table_pk": 535,
+    "data_owner": 2,
+    "data_air_temp": 21.9,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 21:43:14"
+  },
+  {
+    "data_table_pk": 536,
+    "data_owner": 2,
+    "data_air_temp": 22,
+    "data_air_hum": 37.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 21:53:14"
+  },
+  {
+    "data_table_pk": 537,
+    "data_owner": 2,
+    "data_air_temp": 20.2,
+    "data_air_hum": 39.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 22:03:14"
+  },
+  {
+    "data_table_pk": 538,
+    "data_owner": 2,
+    "data_air_temp": 19.8,
+    "data_air_hum": 40.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 22:13:14"
+  },
+  {
+    "data_table_pk": 539,
+    "data_owner": 2,
+    "data_air_temp": 19.8,
+    "data_air_hum": 39.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 22:23:14"
+  },
+  {
+    "data_table_pk": 540,
+    "data_owner": 2,
+    "data_air_temp": 19.9,
+    "data_air_hum": 44.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 22:33:14"
+  },
+  {
+    "data_table_pk": 541,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 40.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 23:23:14"
+  },
+  {
+    "data_table_pk": 542,
+    "data_owner": 2,
+    "data_air_temp": 20.8,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 23:33:14"
+  },
+  {
+    "data_table_pk": 543,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 37.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 23:43:14"
+  },
+  {
+    "data_table_pk": 544,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 37.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-25 23:53:14"
+  },
+  {
+    "data_table_pk": 545,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 37.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 00:03:14"
+  },
+  {
+    "data_table_pk": 546,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 00:13:14"
+  },
+  {
+    "data_table_pk": 547,
+    "data_owner": 2,
+    "data_air_temp": 20.8,
+    "data_air_hum": 36.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 00:23:14"
+  },
+  {
+    "data_table_pk": 548,
+    "data_owner": 2,
+    "data_air_temp": 20.9,
+    "data_air_hum": 36.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 00:33:14"
+  },
+  {
+    "data_table_pk": 549,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 37,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 00:43:14"
+  },
+  {
+    "data_table_pk": 550,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 00:53:14"
+  },
+  {
+    "data_table_pk": 551,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 37.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 01:03:14"
+  },
+  {
+    "data_table_pk": 552,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 37.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 01:13:14"
+  },
+  {
+    "data_table_pk": 553,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 01:23:14"
+  },
+  {
+    "data_table_pk": 554,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 01:33:14"
+  },
+  {
+    "data_table_pk": 555,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 01:43:14"
+  },
+  {
+    "data_table_pk": 556,
+    "data_owner": 2,
+    "data_air_temp": 21,
+    "data_air_hum": 38.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 01:53:14"
+  },
+  {
+    "data_table_pk": 557,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 15:13:14"
+  },
+  {
+    "data_table_pk": 558,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 45.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 15:23:14"
+  },
+  {
+    "data_table_pk": 559,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 15:33:14"
+  },
+  {
+    "data_table_pk": 560,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 42,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 15:43:14"
+  },
+  {
+    "data_table_pk": 561,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 43.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 15:53:14"
+  },
+  {
+    "data_table_pk": 562,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 16:03:14"
+  },
+  {
+    "data_table_pk": 563,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 16:13:14"
+  },
+  {
+    "data_table_pk": 564,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 43.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 16:23:14"
+  },
+  {
+    "data_table_pk": 565,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 16:33:14"
+  },
+  {
+    "data_table_pk": 566,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 16:43:14"
+  },
+  {
+    "data_table_pk": 567,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 45.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 16:53:14"
+  },
+  {
+    "data_table_pk": 568,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 17:03:14"
+  },
+  {
+    "data_table_pk": 569,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 45.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 17:13:14"
+  },
+  {
+    "data_table_pk": 570,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 45.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 17:23:14"
+  },
+  {
+    "data_table_pk": 571,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 17:33:14"
+  },
+  {
+    "data_table_pk": 572,
+    "data_owner": 2,
+    "data_air_temp": 17.9,
+    "data_air_hum": 45.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 17:43:14"
+  },
+  {
+    "data_table_pk": 573,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 17:53:14"
+  },
+  {
+    "data_table_pk": 574,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 18:03:14"
+  },
+  {
+    "data_table_pk": 575,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 46.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 18:13:14"
+  },
+  {
+    "data_table_pk": 576,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 45.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 18:23:14"
+  },
+  {
+    "data_table_pk": 577,
+    "data_owner": 2,
+    "data_air_temp": 17.1,
+    "data_air_hum": 45.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 18:33:14"
+  },
+  {
+    "data_table_pk": 578,
+    "data_owner": 2,
+    "data_air_temp": 17,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 18:43:14"
+  },
+  {
+    "data_table_pk": 579,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 44.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 18:53:14"
+  },
+  {
+    "data_table_pk": 580,
+    "data_owner": 2,
+    "data_air_temp": 16.8,
+    "data_air_hum": 44.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 19:03:14"
+  },
+  {
+    "data_table_pk": 581,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 19:13:14"
+  },
+  {
+    "data_table_pk": 582,
+    "data_owner": 2,
+    "data_air_temp": 16.6,
+    "data_air_hum": 44.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 19:23:14"
+  },
+  {
+    "data_table_pk": 583,
+    "data_owner": 2,
+    "data_air_temp": 16.5,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 19:33:14"
+  },
+  {
+    "data_table_pk": 584,
+    "data_owner": 2,
+    "data_air_temp": 16.3,
+    "data_air_hum": 44.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 19:43:14"
+  },
+  {
+    "data_table_pk": 585,
+    "data_owner": 2,
+    "data_air_temp": 16.2,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 19:53:14"
+  },
+  {
+    "data_table_pk": 586,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 44.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 20:03:14"
+  },
+  {
+    "data_table_pk": 587,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 44.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 20:13:14"
+  },
+  {
+    "data_table_pk": 588,
+    "data_owner": 2,
+    "data_air_temp": 16,
+    "data_air_hum": 44.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 20:23:14"
+  },
+  {
+    "data_table_pk": 589,
+    "data_owner": 2,
+    "data_air_temp": 15.9,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 20:33:14"
+  },
+  {
+    "data_table_pk": 590,
+    "data_owner": 2,
+    "data_air_temp": 15.8,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 20:43:14"
+  },
+  {
+    "data_table_pk": 591,
+    "data_owner": 2,
+    "data_air_temp": 15.7,
+    "data_air_hum": 44.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 20:53:14"
+  },
+  {
+    "data_table_pk": 592,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 44,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 21:03:14"
+  },
+  {
+    "data_table_pk": 593,
+    "data_owner": 2,
+    "data_air_temp": 15.5,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 21:13:14"
+  },
+  {
+    "data_table_pk": 594,
+    "data_owner": 2,
+    "data_air_temp": 15.5,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 21:23:14"
+  },
+  {
+    "data_table_pk": 595,
+    "data_owner": 2,
+    "data_air_temp": 15.4,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 21:33:14"
+  },
+  {
+    "data_table_pk": 596,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 21:43:14"
+  },
+  {
+    "data_table_pk": 597,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 21:53:14"
+  },
+  {
+    "data_table_pk": 598,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 22:03:14"
+  },
+  {
+    "data_table_pk": 599,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 22:13:14"
+  },
+  {
+    "data_table_pk": 600,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 22:23:14"
+  },
+  {
+    "data_table_pk": 601,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 22:33:14"
+  },
+  {
+    "data_table_pk": 602,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 22:43:14"
+  },
+  {
+    "data_table_pk": 603,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 43.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 22:53:14"
+  },
+  {
+    "data_table_pk": 604,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 23:03:14"
+  },
+  {
+    "data_table_pk": 605,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 23:13:14"
+  },
+  {
+    "data_table_pk": 606,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 23:23:14"
+  },
+  {
+    "data_table_pk": 607,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 43.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 23:33:14"
+  },
+  {
+    "data_table_pk": 608,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 44,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 23:43:14"
+  },
+  {
+    "data_table_pk": 609,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 44,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-26 23:53:14"
+  },
+  {
+    "data_table_pk": 610,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 44.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 00:03:14"
+  },
+  {
+    "data_table_pk": 611,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 44.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 00:13:14"
+  },
+  {
+    "data_table_pk": 612,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 00:23:14"
+  },
+  {
+    "data_table_pk": 613,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 00:33:14"
+  },
+  {
+    "data_table_pk": 614,
+    "data_owner": 2,
+    "data_air_temp": 14.2,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 00:43:14"
+  },
+  {
+    "data_table_pk": 615,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 44.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 00:53:14"
+  },
+  {
+    "data_table_pk": 616,
+    "data_owner": 2,
+    "data_air_temp": 14,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 01:03:14"
+  },
+  {
+    "data_table_pk": 617,
+    "data_owner": 2,
+    "data_air_temp": 13.9,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 01:13:14"
+  },
+  {
+    "data_table_pk": 618,
+    "data_owner": 2,
+    "data_air_temp": 13.9,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 01:23:14"
+  },
+  {
+    "data_table_pk": 619,
+    "data_owner": 2,
+    "data_air_temp": 13.8,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 01:33:14"
+  },
+  {
+    "data_table_pk": 620,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 44.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 01:43:14"
+  },
+  {
+    "data_table_pk": 621,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 01:53:14"
+  },
+  {
+    "data_table_pk": 622,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 02:03:14"
+  },
+  {
+    "data_table_pk": 623,
+    "data_owner": 2,
+    "data_air_temp": 13.6,
+    "data_air_hum": 44.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 02:13:14"
+  },
+  {
+    "data_table_pk": 624,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 44.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 02:23:14"
+  },
+  {
+    "data_table_pk": 625,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 44.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 02:33:14"
+  },
+  {
+    "data_table_pk": 626,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 44.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 02:43:14"
+  },
+  {
+    "data_table_pk": 627,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 44.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 02:53:14"
+  },
+  {
+    "data_table_pk": 628,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 03:03:14"
+  },
+  {
+    "data_table_pk": 629,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 03:13:14"
+  },
+  {
+    "data_table_pk": 630,
+    "data_owner": 2,
+    "data_air_temp": 13.2,
+    "data_air_hum": 45,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 03:23:14"
+  },
+  {
+    "data_table_pk": 631,
+    "data_owner": 2,
+    "data_air_temp": 13.1,
+    "data_air_hum": 45.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 03:33:14"
+  },
+  {
+    "data_table_pk": 632,
+    "data_owner": 2,
+    "data_air_temp": 13.1,
+    "data_air_hum": 45.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 03:43:14"
+  },
+  {
+    "data_table_pk": 633,
+    "data_owner": 2,
+    "data_air_temp": 13,
+    "data_air_hum": 45.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 03:53:14"
+  },
+  {
+    "data_table_pk": 634,
+    "data_owner": 2,
+    "data_air_temp": 13,
+    "data_air_hum": 45.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 04:03:14"
+  },
+  {
+    "data_table_pk": 635,
+    "data_owner": 2,
+    "data_air_temp": 12.9,
+    "data_air_hum": 45.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 04:13:14"
+  },
+  {
+    "data_table_pk": 636,
+    "data_owner": 2,
+    "data_air_temp": 12.9,
+    "data_air_hum": 45.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 04:23:14"
+  },
+  {
+    "data_table_pk": 637,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 45.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 04:33:14"
+  },
+  {
+    "data_table_pk": 638,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 45.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 04:43:14"
+  },
+  {
+    "data_table_pk": 639,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 45.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 04:53:14"
+  },
+  {
+    "data_table_pk": 640,
+    "data_owner": 2,
+    "data_air_temp": 12.7,
+    "data_air_hum": 45.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 05:03:14"
+  },
+  {
+    "data_table_pk": 641,
+    "data_owner": 2,
+    "data_air_temp": 12.7,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 05:13:14"
+  },
+  {
+    "data_table_pk": 642,
+    "data_owner": 2,
+    "data_air_temp": 12.6,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 05:23:14"
+  },
+  {
+    "data_table_pk": 643,
+    "data_owner": 2,
+    "data_air_temp": 12.6,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 05:33:14"
+  },
+  {
+    "data_table_pk": 644,
+    "data_owner": 2,
+    "data_air_temp": 12.5,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 05:43:14"
+  },
+  {
+    "data_table_pk": 645,
+    "data_owner": 2,
+    "data_air_temp": 12.5,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 05:53:14"
+  },
+  {
+    "data_table_pk": 646,
+    "data_owner": 2,
+    "data_air_temp": 12.5,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 06:03:14"
+  },
+  {
+    "data_table_pk": 647,
+    "data_owner": 2,
+    "data_air_temp": 12.4,
+    "data_air_hum": 46.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 06:13:14"
+  },
+  {
+    "data_table_pk": 648,
+    "data_owner": 2,
+    "data_air_temp": 12.4,
+    "data_air_hum": 46.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 06:23:14"
+  },
+  {
+    "data_table_pk": 649,
+    "data_owner": 2,
+    "data_air_temp": 12.3,
+    "data_air_hum": 46.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 06:33:14"
+  },
+  {
+    "data_table_pk": 650,
+    "data_owner": 2,
+    "data_air_temp": 12.3,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 06:43:14"
+  },
+  {
+    "data_table_pk": 651,
+    "data_owner": 2,
+    "data_air_temp": 12.2,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 06:53:14"
+  },
+  {
+    "data_table_pk": 652,
+    "data_owner": 2,
+    "data_air_temp": 12.2,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 07:03:14"
+  },
+  {
+    "data_table_pk": 653,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 07:13:14"
+  },
+  {
+    "data_table_pk": 654,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 07:23:14"
+  },
+  {
+    "data_table_pk": 655,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 07:33:14"
+  },
+  {
+    "data_table_pk": 656,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 07:43:14"
+  },
+  {
+    "data_table_pk": 657,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 07:53:14"
+  },
+  {
+    "data_table_pk": 658,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 08:03:14"
+  },
+  {
+    "data_table_pk": 659,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 08:13:14"
+  },
+  {
+    "data_table_pk": 660,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 08:23:14"
+  },
+  {
+    "data_table_pk": 661,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 46,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 08:33:14"
+  },
+  {
+    "data_table_pk": 662,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 08:43:14"
+  },
+  {
+    "data_table_pk": 663,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 45.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 08:53:14"
+  },
+  {
+    "data_table_pk": 664,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 09:03:14"
+  },
+  {
+    "data_table_pk": 665,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 09:13:14"
+  },
+  {
+    "data_table_pk": 666,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 09:23:14"
+  },
+  {
+    "data_table_pk": 667,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 09:33:14"
+  },
+  {
+    "data_table_pk": 668,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 45.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 09:43:14"
+  },
+  {
+    "data_table_pk": 669,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 45.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 09:53:14"
+  },
+  {
+    "data_table_pk": 670,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 45.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 10:03:14"
+  },
+  {
+    "data_table_pk": 671,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 44.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 10:13:14"
+  },
+  {
+    "data_table_pk": 672,
+    "data_owner": 2,
+    "data_air_temp": 12.2,
+    "data_air_hum": 44.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 10:23:14"
+  },
+  {
+    "data_table_pk": 673,
+    "data_owner": 2,
+    "data_air_temp": 12.2,
+    "data_air_hum": 44.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 10:33:14"
+  },
+  {
+    "data_table_pk": 674,
+    "data_owner": 2,
+    "data_air_temp": 12.3,
+    "data_air_hum": 43.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 10:43:14"
+  },
+  {
+    "data_table_pk": 675,
+    "data_owner": 2,
+    "data_air_temp": 12.3,
+    "data_air_hum": 43.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 10:53:14"
+  },
+  {
+    "data_table_pk": 676,
+    "data_owner": 2,
+    "data_air_temp": 12.3,
+    "data_air_hum": 43,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 11:03:14"
+  },
+  {
+    "data_table_pk": 677,
+    "data_owner": 2,
+    "data_air_temp": 12.4,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 11:13:14"
+  },
+  {
+    "data_table_pk": 678,
+    "data_owner": 2,
+    "data_air_temp": 12.4,
+    "data_air_hum": 42.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 11:23:14"
+  },
+  {
+    "data_table_pk": 679,
+    "data_owner": 2,
+    "data_air_temp": 12.4,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 11:33:14"
+  },
+  {
+    "data_table_pk": 680,
+    "data_owner": 2,
+    "data_air_temp": 12.5,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 11:43:14"
+  },
+  {
+    "data_table_pk": 681,
+    "data_owner": 2,
+    "data_air_temp": 12.5,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 11:53:14"
+  },
+  {
+    "data_table_pk": 682,
+    "data_owner": 2,
+    "data_air_temp": 12.6,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 12:03:14"
+  },
+  {
+    "data_table_pk": 683,
+    "data_owner": 2,
+    "data_air_temp": 12.6,
+    "data_air_hum": 42.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 12:13:14"
+  },
+  {
+    "data_table_pk": 684,
+    "data_owner": 2,
+    "data_air_temp": 12.7,
+    "data_air_hum": 42.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 12:23:14"
+  },
+  {
+    "data_table_pk": 685,
+    "data_owner": 2,
+    "data_air_temp": 12.7,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 12:33:14"
+  },
+  {
+    "data_table_pk": 686,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 41.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 12:43:14"
+  },
+  {
+    "data_table_pk": 687,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 40.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 12:53:15"
+  },
+  {
+    "data_table_pk": 688,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 13:03:14"
+  },
+  {
+    "data_table_pk": 689,
+    "data_owner": 2,
+    "data_air_temp": 12.9,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 13:13:14"
+  },
+  {
+    "data_table_pk": 690,
+    "data_owner": 2,
+    "data_air_temp": 13.1,
+    "data_air_hum": 40,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 13:23:14"
+  },
+  {
+    "data_table_pk": 691,
+    "data_owner": 2,
+    "data_air_temp": 13.1,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 13:33:14"
+  },
+  {
+    "data_table_pk": 692,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 40,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 13:43:14"
+  },
+  {
+    "data_table_pk": 693,
+    "data_owner": 2,
+    "data_air_temp": 13.4,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 13:53:14"
+  },
+  {
+    "data_table_pk": 694,
+    "data_owner": 2,
+    "data_air_temp": 13.6,
+    "data_air_hum": 40.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 14:03:14"
+  },
+  {
+    "data_table_pk": 695,
+    "data_owner": 2,
+    "data_air_temp": 13.7,
+    "data_air_hum": 40.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 14:13:14"
+  },
+  {
+    "data_table_pk": 696,
+    "data_owner": 2,
+    "data_air_temp": 13.9,
+    "data_air_hum": 40.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 14:23:14"
+  },
+  {
+    "data_table_pk": 697,
+    "data_owner": 2,
+    "data_air_temp": 14,
+    "data_air_hum": 40,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 14:33:14"
+  },
+  {
+    "data_table_pk": 698,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 40.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 14:43:14"
+  },
+  {
+    "data_table_pk": 699,
+    "data_owner": 2,
+    "data_air_temp": 14.4,
+    "data_air_hum": 40.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 14:53:14"
+  },
+  {
+    "data_table_pk": 700,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 41.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 15:03:14"
+  },
+  {
+    "data_table_pk": 701,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 15:13:14"
+  },
+  {
+    "data_table_pk": 702,
+    "data_owner": 2,
+    "data_air_temp": 15.4,
+    "data_air_hum": 42,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 15:23:14"
+  },
+  {
+    "data_table_pk": 703,
+    "data_owner": 2,
+    "data_air_temp": 15.7,
+    "data_air_hum": 41.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 15:33:14"
+  },
+  {
+    "data_table_pk": 704,
+    "data_owner": 2,
+    "data_air_temp": 15.8,
+    "data_air_hum": 41.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 15:43:14"
+  },
+  {
+    "data_table_pk": 705,
+    "data_owner": 2,
+    "data_air_temp": 16,
+    "data_air_hum": 41.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 15:53:14"
+  },
+  {
+    "data_table_pk": 706,
+    "data_owner": 2,
+    "data_air_temp": 16.3,
+    "data_air_hum": 41.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 16:03:14"
+  },
+  {
+    "data_table_pk": 707,
+    "data_owner": 2,
+    "data_air_temp": 16.6,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 16:13:14"
+  },
+  {
+    "data_table_pk": 708,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 41.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 16:23:14"
+  },
+  {
+    "data_table_pk": 709,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 42.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 16:33:14"
+  },
+  {
+    "data_table_pk": 710,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 42.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 16:43:14"
+  },
+  {
+    "data_table_pk": 711,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 16:53:14"
+  },
+  {
+    "data_table_pk": 712,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 41.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 17:03:14"
+  },
+  {
+    "data_table_pk": 713,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 40.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 17:13:14"
+  },
+  {
+    "data_table_pk": 714,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 39.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 17:23:14"
+  },
+  {
+    "data_table_pk": 715,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 39.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 17:33:14"
+  },
+  {
+    "data_table_pk": 716,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 39.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 17:43:14"
+  },
+  {
+    "data_table_pk": 717,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 17:53:14"
+  },
+  {
+    "data_table_pk": 718,
+    "data_owner": 2,
+    "data_air_temp": 17,
+    "data_air_hum": 39.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 18:03:14"
+  },
+  {
+    "data_table_pk": 719,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 38.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 18:13:14"
+  },
+  {
+    "data_table_pk": 720,
+    "data_owner": 2,
+    "data_air_temp": 16.7,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 18:23:14"
+  },
+  {
+    "data_table_pk": 721,
+    "data_owner": 2,
+    "data_air_temp": 16.6,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 18:33:14"
+  },
+  {
+    "data_table_pk": 722,
+    "data_owner": 2,
+    "data_air_temp": 16.5,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 18:43:14"
+  },
+  {
+    "data_table_pk": 723,
+    "data_owner": 2,
+    "data_air_temp": 16.3,
+    "data_air_hum": 39.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 18:53:14"
+  },
+  {
+    "data_table_pk": 724,
+    "data_owner": 2,
+    "data_air_temp": 16.2,
+    "data_air_hum": 39.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 19:03:14"
+  },
+  {
+    "data_table_pk": 725,
+    "data_owner": 2,
+    "data_air_temp": 16.1,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 19:13:14"
+  },
+  {
+    "data_table_pk": 726,
+    "data_owner": 2,
+    "data_air_temp": 16,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 19:23:14"
+  },
+  {
+    "data_table_pk": 727,
+    "data_owner": 2,
+    "data_air_temp": 15.9,
+    "data_air_hum": 39,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 19:33:14"
+  },
+  {
+    "data_table_pk": 728,
+    "data_owner": 2,
+    "data_air_temp": 15.8,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 19:43:14"
+  },
+  {
+    "data_table_pk": 729,
+    "data_owner": 2,
+    "data_air_temp": 15.7,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 19:53:14"
+  },
+  {
+    "data_table_pk": 730,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 20:03:14"
+  },
+  {
+    "data_table_pk": 731,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 20:13:14"
+  },
+  {
+    "data_table_pk": 732,
+    "data_owner": 2,
+    "data_air_temp": 15.5,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 20:23:14"
+  },
+  {
+    "data_table_pk": 733,
+    "data_owner": 2,
+    "data_air_temp": 15.4,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 20:33:14"
+  },
+  {
+    "data_table_pk": 734,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 20:43:14"
+  },
+  {
+    "data_table_pk": 735,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 20:53:14"
+  },
+  {
+    "data_table_pk": 736,
+    "data_owner": 2,
+    "data_air_temp": 15.2,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 21:03:14"
+  },
+  {
+    "data_table_pk": 737,
+    "data_owner": 2,
+    "data_air_temp": 15.1,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 21:13:14"
+  },
+  {
+    "data_table_pk": 738,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 39.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 21:23:14"
+  },
+  {
+    "data_table_pk": 739,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 39.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 21:33:14"
+  },
+  {
+    "data_table_pk": 740,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 39.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 21:43:14"
+  },
+  {
+    "data_table_pk": 741,
+    "data_owner": 2,
+    "data_air_temp": 14.8,
+    "data_air_hum": 39.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 21:53:14"
+  },
+  {
+    "data_table_pk": 742,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 22:03:14"
+  },
+  {
+    "data_table_pk": 743,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 39.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 22:13:14"
+  },
+  {
+    "data_table_pk": 744,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 39.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 22:23:14"
+  },
+  {
+    "data_table_pk": 745,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 22:33:14"
+  },
+  {
+    "data_table_pk": 746,
+    "data_owner": 2,
+    "data_air_temp": 14.6,
+    "data_air_hum": 41.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 22:43:14"
+  },
+  {
+    "data_table_pk": 747,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 22:53:14"
+  },
+  {
+    "data_table_pk": 748,
+    "data_owner": 2,
+    "data_air_temp": 14.9,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 23:03:14"
+  },
+  {
+    "data_table_pk": 749,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 43.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-02-27 23:13:14"
+  },
+  {
+    "data_table_pk": 750,
+    "data_owner": 2,
+    "data_air_temp": 18.5,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-01 23:04:46"
+  },
+  {
+    "data_table_pk": 751,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-01 23:14:42"
+  },
+  {
+    "data_table_pk": 752,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 38.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-01 23:24:42"
+  },
+  {
+    "data_table_pk": 753,
+    "data_owner": 2,
+    "data_air_temp": 18.8,
+    "data_air_hum": 37.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-01 23:34:42"
+  },
+  {
+    "data_table_pk": 754,
+    "data_owner": 2,
+    "data_air_temp": 18.9,
+    "data_air_hum": 36,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-01 23:44:42"
+  },
+  {
+    "data_table_pk": 755,
+    "data_owner": 2,
+    "data_air_temp": 18.8,
+    "data_air_hum": 35.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-01 23:54:42"
+  },
+  {
+    "data_table_pk": 756,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 34.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 00:04:42"
+  },
+  {
+    "data_table_pk": 757,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 34.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 00:14:42"
+  },
+  {
+    "data_table_pk": 758,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 34.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 00:24:42"
+  },
+  {
+    "data_table_pk": 759,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 34.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 00:34:42"
+  },
+  {
+    "data_table_pk": 760,
+    "data_owner": 2,
+    "data_air_temp": 18.2,
+    "data_air_hum": 34.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 00:44:42"
+  },
+  {
+    "data_table_pk": 761,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 33.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 00:54:42"
+  },
+  {
+    "data_table_pk": 762,
+    "data_owner": 2,
+    "data_air_temp": 18,
+    "data_air_hum": 34.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 01:04:42"
+  },
+  {
+    "data_table_pk": 763,
+    "data_owner": 2,
+    "data_air_temp": 17.9,
+    "data_air_hum": 33.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 01:14:42"
+  },
+  {
+    "data_table_pk": 764,
+    "data_owner": 2,
+    "data_air_temp": 17.8,
+    "data_air_hum": 34,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 01:24:42"
+  },
+  {
+    "data_table_pk": 765,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 33.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 01:34:42"
+  },
+  {
+    "data_table_pk": 766,
+    "data_owner": 2,
+    "data_air_temp": 17.7,
+    "data_air_hum": 34.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 01:44:42"
+  },
+  {
+    "data_table_pk": 767,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 34.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 01:54:42"
+  },
+  {
+    "data_table_pk": 768,
+    "data_owner": 2,
+    "data_air_temp": 17.6,
+    "data_air_hum": 34.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 02:04:42"
+  },
+  {
+    "data_table_pk": 769,
+    "data_owner": 2,
+    "data_air_temp": 17.5,
+    "data_air_hum": 34.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 02:14:42"
+  },
+  {
+    "data_table_pk": 770,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 34.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 02:24:42"
+  },
+  {
+    "data_table_pk": 771,
+    "data_owner": 2,
+    "data_air_temp": 17.4,
+    "data_air_hum": 34.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 02:34:42"
+  },
+  {
+    "data_table_pk": 772,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 34.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 02:44:42"
+  },
+  {
+    "data_table_pk": 773,
+    "data_owner": 2,
+    "data_air_temp": 17.3,
+    "data_air_hum": 34.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 02:54:42"
+  },
+  {
+    "data_table_pk": 774,
+    "data_owner": 2,
+    "data_air_temp": 17.2,
+    "data_air_hum": 34.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 03:04:42"
+  },
+  {
+    "data_table_pk": 775,
+    "data_owner": 2,
+    "data_air_temp": 16.9,
+    "data_air_hum": 34.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 03:14:42"
+  },
+  {
+    "data_table_pk": 776,
+    "data_owner": 2,
+    "data_air_temp": 16.5,
+    "data_air_hum": 34,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 03:24:42"
+  },
+  {
+    "data_table_pk": 777,
+    "data_owner": 2,
+    "data_air_temp": 16.2,
+    "data_air_hum": 34.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 03:34:42"
+  },
+  {
+    "data_table_pk": 778,
+    "data_owner": 2,
+    "data_air_temp": 15.9,
+    "data_air_hum": 34.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 03:44:42"
+  },
+  {
+    "data_table_pk": 779,
+    "data_owner": 2,
+    "data_air_temp": 15.6,
+    "data_air_hum": 35.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 03:54:42"
+  },
+  {
+    "data_table_pk": 780,
+    "data_owner": 2,
+    "data_air_temp": 15.3,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 04:04:42"
+  },
+  {
+    "data_table_pk": 781,
+    "data_owner": 2,
+    "data_air_temp": 15,
+    "data_air_hum": 36.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 04:14:42"
+  },
+  {
+    "data_table_pk": 782,
+    "data_owner": 2,
+    "data_air_temp": 14.7,
+    "data_air_hum": 36.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 04:24:42"
+  },
+  {
+    "data_table_pk": 783,
+    "data_owner": 2,
+    "data_air_temp": 14.5,
+    "data_air_hum": 36.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 04:34:42"
+  },
+  {
+    "data_table_pk": 784,
+    "data_owner": 2,
+    "data_air_temp": 14.3,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 04:44:42"
+  },
+  {
+    "data_table_pk": 785,
+    "data_owner": 2,
+    "data_air_temp": 14.1,
+    "data_air_hum": 37.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 04:54:42"
+  },
+  {
+    "data_table_pk": 786,
+    "data_owner": 2,
+    "data_air_temp": 13.8,
+    "data_air_hum": 37.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 05:04:42"
+  },
+  {
+    "data_table_pk": 787,
+    "data_owner": 2,
+    "data_air_temp": 13.6,
+    "data_air_hum": 37.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 05:14:42"
+  },
+  {
+    "data_table_pk": 788,
+    "data_owner": 2,
+    "data_air_temp": 13.5,
+    "data_air_hum": 38.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 05:24:42"
+  },
+  {
+    "data_table_pk": 789,
+    "data_owner": 2,
+    "data_air_temp": 13.3,
+    "data_air_hum": 38.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 05:34:42"
+  },
+  {
+    "data_table_pk": 790,
+    "data_owner": 2,
+    "data_air_temp": 13.2,
+    "data_air_hum": 38.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 05:44:42"
+  },
+  {
+    "data_table_pk": 791,
+    "data_owner": 2,
+    "data_air_temp": 13,
+    "data_air_hum": 38.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 05:54:42"
+  },
+  {
+    "data_table_pk": 792,
+    "data_owner": 2,
+    "data_air_temp": 12.8,
+    "data_air_hum": 39.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 06:04:42"
+  },
+  {
+    "data_table_pk": 793,
+    "data_owner": 2,
+    "data_air_temp": 12.7,
+    "data_air_hum": 39.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 06:14:42"
+  },
+  {
+    "data_table_pk": 794,
+    "data_owner": 2,
+    "data_air_temp": 12.5,
+    "data_air_hum": 39.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 06:24:42"
+  },
+  {
+    "data_table_pk": 795,
+    "data_owner": 2,
+    "data_air_temp": 12.4,
+    "data_air_hum": 39.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 06:34:42"
+  },
+  {
+    "data_table_pk": 796,
+    "data_owner": 2,
+    "data_air_temp": 12.3,
+    "data_air_hum": 39.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 06:44:42"
+  },
+  {
+    "data_table_pk": 797,
+    "data_owner": 2,
+    "data_air_temp": 12.1,
+    "data_air_hum": 40,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 06:54:42"
+  },
+  {
+    "data_table_pk": 798,
+    "data_owner": 2,
+    "data_air_temp": 12,
+    "data_air_hum": 40.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 07:04:42"
+  },
+  {
+    "data_table_pk": 799,
+    "data_owner": 2,
+    "data_air_temp": 11.9,
+    "data_air_hum": 40.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 07:14:42"
+  },
+  {
+    "data_table_pk": 800,
+    "data_owner": 2,
+    "data_air_temp": 11.7,
+    "data_air_hum": 40.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 07:24:42"
+  },
+  {
+    "data_table_pk": 801,
+    "data_owner": 2,
+    "data_air_temp": 11.6,
+    "data_air_hum": 40.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 07:34:42"
+  },
+  {
+    "data_table_pk": 802,
+    "data_owner": 2,
+    "data_air_temp": 11.5,
+    "data_air_hum": 41,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 07:44:42"
+  },
+  {
+    "data_table_pk": 803,
+    "data_owner": 2,
+    "data_air_temp": 11.4,
+    "data_air_hum": 41.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 07:54:42"
+  },
+  {
+    "data_table_pk": 804,
+    "data_owner": 2,
+    "data_air_temp": 11.3,
+    "data_air_hum": 41.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 08:04:42"
+  },
+  {
+    "data_table_pk": 805,
+    "data_owner": 2,
+    "data_air_temp": 11.3,
+    "data_air_hum": 41.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 08:14:42"
+  },
+  {
+    "data_table_pk": 806,
+    "data_owner": 2,
+    "data_air_temp": 11.2,
+    "data_air_hum": 41.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 08:24:42"
+  },
+  {
+    "data_table_pk": 807,
+    "data_owner": 2,
+    "data_air_temp": 11.1,
+    "data_air_hum": 42,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 08:34:42"
+  },
+  {
+    "data_table_pk": 808,
+    "data_owner": 2,
+    "data_air_temp": 11.1,
+    "data_air_hum": 42.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 08:44:42"
+  },
+  {
+    "data_table_pk": 809,
+    "data_owner": 2,
+    "data_air_temp": 11.1,
+    "data_air_hum": 42.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 08:54:42"
+  },
+  {
+    "data_table_pk": 810,
+    "data_owner": 2,
+    "data_air_temp": 11.1,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 09:04:42"
+  },
+  {
+    "data_table_pk": 811,
+    "data_owner": 2,
+    "data_air_temp": 11,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 09:14:42"
+  },
+  {
+    "data_table_pk": 812,
+    "data_owner": 2,
+    "data_air_temp": 11,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 09:24:42"
+  },
+  {
+    "data_table_pk": 813,
+    "data_owner": 2,
+    "data_air_temp": 11,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 09:34:42"
+  },
+  {
+    "data_table_pk": 814,
+    "data_owner": 2,
+    "data_air_temp": 10.9,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 09:44:42"
+  },
+  {
+    "data_table_pk": 815,
+    "data_owner": 2,
+    "data_air_temp": 10.9,
+    "data_air_hum": 42.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 09:54:42"
+  },
+  {
+    "data_table_pk": 816,
+    "data_owner": 2,
+    "data_air_temp": 10.9,
+    "data_air_hum": 42.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 10:04:42"
+  },
+  {
+    "data_table_pk": 817,
+    "data_owner": 2,
+    "data_air_temp": 10.9,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 10:14:42"
+  },
+  {
+    "data_table_pk": 818,
+    "data_owner": 2,
+    "data_air_temp": 10.9,
+    "data_air_hum": 42.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 10:24:42"
+  },
+  {
+    "data_table_pk": 819,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 10:34:42"
+  },
+  {
+    "data_table_pk": 820,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 10:44:42"
+  },
+  {
+    "data_table_pk": 821,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 10:54:42"
+  },
+  {
+    "data_table_pk": 822,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 11:04:42"
+  },
+  {
+    "data_table_pk": 823,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 11:14:42"
+  },
+  {
+    "data_table_pk": 824,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 11:24:42"
+  },
+  {
+    "data_table_pk": 825,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 11:34:42"
+  },
+  {
+    "data_table_pk": 826,
+    "data_owner": 2,
+    "data_air_temp": 10.8,
+    "data_air_hum": 43,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 11:44:42"
+  },
+  {
+    "data_table_pk": 827,
+    "data_owner": 2,
+    "data_air_temp": 18.1,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 15:04:47"
+  },
+  {
+    "data_table_pk": 828,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 38.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 15:14:42"
+  },
+  {
+    "data_table_pk": 829,
+    "data_owner": 2,
+    "data_air_temp": 18.6,
+    "data_air_hum": 42.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 15:24:42"
+  },
+  {
+    "data_table_pk": 830,
+    "data_owner": 2,
+    "data_air_temp": 18.5,
+    "data_air_hum": 44.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 15:34:42"
+  },
+  {
+    "data_table_pk": 831,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 47.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 15:44:42"
+  },
+  {
+    "data_table_pk": 832,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 50.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 15:54:42"
+  },
+  {
+    "data_table_pk": 833,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 52.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 16:04:42"
+  },
+  {
+    "data_table_pk": 834,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 50.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 16:14:42"
+  },
+  {
+    "data_table_pk": 835,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 46.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 16:24:42"
+  },
+  {
+    "data_table_pk": 836,
+    "data_owner": 2,
+    "data_air_temp": 18.3,
+    "data_air_hum": 43.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 16:34:42"
+  },
+  {
+    "data_table_pk": 837,
+    "data_owner": 2,
+    "data_air_temp": 18.4,
+    "data_air_hum": 42.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 16:44:42"
+  },
+  {
+    "data_table_pk": 838,
+    "data_owner": 2,
+    "data_air_temp": 18.7,
+    "data_air_hum": 42.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 16:54:42"
+  },
+  {
+    "data_table_pk": 839,
+    "data_owner": 2,
+    "data_air_temp": 19.6,
+    "data_air_hum": 41.5,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 17:04:42"
+  },
+  {
+    "data_table_pk": 840,
+    "data_owner": 2,
+    "data_air_temp": 20.6,
+    "data_air_hum": 39.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 17:14:42"
+  },
+  {
+    "data_table_pk": 841,
+    "data_owner": 2,
+    "data_air_temp": 21.5,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 17:24:42"
+  },
+  {
+    "data_table_pk": 842,
+    "data_owner": 2,
+    "data_air_temp": 22.2,
+    "data_air_hum": 36.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 17:34:42"
+  },
+  {
+    "data_table_pk": 843,
+    "data_owner": 2,
+    "data_air_temp": 22.6,
+    "data_air_hum": 35.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 17:44:42"
+  },
+  {
+    "data_table_pk": 844,
+    "data_owner": 2,
+    "data_air_temp": 23,
+    "data_air_hum": 35,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 17:54:42"
+  },
+  {
+    "data_table_pk": 845,
+    "data_owner": 2,
+    "data_air_temp": 23.4,
+    "data_air_hum": 34.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 18:04:42"
+  },
+  {
+    "data_table_pk": 846,
+    "data_owner": 2,
+    "data_air_temp": 23.8,
+    "data_air_hum": 33.3,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 18:14:42"
+  },
+  {
+    "data_table_pk": 847,
+    "data_owner": 2,
+    "data_air_temp": 24.1,
+    "data_air_hum": 32.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 18:24:42"
+  },
+  {
+    "data_table_pk": 848,
+    "data_owner": 2,
+    "data_air_temp": 24.3,
+    "data_air_hum": 32.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 18:34:42"
+  },
+  {
+    "data_table_pk": 849,
+    "data_owner": 2,
+    "data_air_temp": 24.4,
+    "data_air_hum": 31.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 18:44:42"
+  },
+  {
+    "data_table_pk": 850,
+    "data_owner": 2,
+    "data_air_temp": 24.3,
+    "data_air_hum": 31.6,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 18:54:42"
+  },
+  {
+    "data_table_pk": 851,
+    "data_owner": 2,
+    "data_air_temp": 24.4,
+    "data_air_hum": 35.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 19:04:42"
+  },
+  {
+    "data_table_pk": 852,
+    "data_owner": 2,
+    "data_air_temp": 24.1,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 19:14:42"
+  },
+  {
+    "data_table_pk": 853,
+    "data_owner": 2,
+    "data_air_temp": 23.7,
+    "data_air_hum": 36.8,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 19:24:42"
+  },
+  {
+    "data_table_pk": 854,
+    "data_owner": 2,
+    "data_air_temp": 22.8,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 19:34:42"
+  },
+  {
+    "data_table_pk": 855,
+    "data_owner": 2,
+    "data_air_temp": 22.2,
+    "data_air_hum": 37.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 19:44:42"
+  },
+  {
+    "data_table_pk": 856,
+    "data_owner": 2,
+    "data_air_temp": 21.5,
+    "data_air_hum": 37.4,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 19:54:42"
+  },
+  {
+    "data_table_pk": 857,
+    "data_owner": 2,
+    "data_air_temp": 21.1,
+    "data_air_hum": 37.7,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 20:04:42"
+  },
+  {
+    "data_table_pk": 858,
+    "data_owner": 2,
+    "data_air_temp": 20.7,
+    "data_air_hum": 37.9,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 20:14:42"
+  },
+  {
+    "data_table_pk": 859,
+    "data_owner": 2,
+    "data_air_temp": 20.4,
+    "data_air_hum": 38.2,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 20:24:42"
+  },
+  {
+    "data_table_pk": 860,
+    "data_owner": 2,
+    "data_air_temp": 20.3,
+    "data_air_hum": 38.1,
+    "data_illum": 0,
+    "data_battery": 100,
+    "data_signal": 100,
+    "current_time": "2024-03-02 20:34:42"
+  }
+]

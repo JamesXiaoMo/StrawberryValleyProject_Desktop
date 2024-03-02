@@ -1,7 +1,12 @@
+import os
+
 from mainUI import *
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtCore import Signal, QThread
 import sys
+import plotly.offline as pyof
+import plotly.graph_objs as go
+import pandas as pd
 
 console_buff = []
 socket_list = []
@@ -25,7 +30,7 @@ class SocketThread(QThread):
             socket_list[0].connect((self.host, self.port))
             socket_list[0].send("connect".encode('utf-8'))
             self.receive_data()
-    
+
     def receive_data(self):
         while True:
             data = socket_list[0].recv(1024)
@@ -44,6 +49,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.socket_thread = None
         self.setupUi(self)
         self.command_submit_signal[str].connect(self.update_console)
+        print(self.get_graph())
+        self.webEngineView.load(QUrl.fromLocalFile(self.get_graph()))
 
     # 网络连接
     def connect_server(self):
@@ -67,6 +74,31 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if self.lineEdit_command_line.text() != "":
             self.command_submit_signal.emit(self.lineEdit_command_line.text())
             self.lineEdit_command_line.clear()
+
+    # 图表函数
+    def get_graph(self, graph_name="graph.html"):
+        data_graph = pd.read_excel("data_table.xlsx")
+        graph_dir = os.getcwd() + os.sep + "graphs" + os.sep + graph_name
+        hum = go.Scatter(
+            x=data_graph["current_time"],
+            y=data_graph["data_air_hum"],
+            name="湿度",
+            connectgaps=True
+        )
+        temp = go.Scatter(
+            x=data_graph["current_time"],
+            y=data_graph["data_air_temp"],
+            name="温度",
+            connectgaps=True
+        )
+        data = [hum, temp]
+        layout = dict(
+            title="温湿度图表",
+            xaxis=dict(title="日期"),
+            yaxis=dict(title="温度/湿度"))
+        fig = go.Figure(data=data, layout=layout)
+        pyof.plot(fig, filename=graph_dir, auto_open=False)
+        return graph_dir
 
 
 if __name__ == '__main__':
