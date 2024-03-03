@@ -16,9 +16,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWebEngineWidgets import QWebEngineView
-from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
-    QPushButton, QSizePolicy, QTabWidget, QTextEdit,
-    QWidget)
+from PySide6.QtWidgets import (QApplication, QDateEdit, QLabel, QLineEdit,
+    QMainWindow, QPushButton, QSizePolicy, QTabWidget,
+    QTextEdit, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -94,8 +94,26 @@ class Ui_MainWindow(object):
         self.tab_2.setObjectName(u"tab_2")
         self.webEngineView = QWebEngineView(self.tab_2)
         self.webEngineView.setObjectName(u"webEngineView")
-        self.webEngineView.setGeometry(QRect(0, 0, 694, 372))
+        self.webEngineView.setGeometry(QRect(0, 22, 694, 350))
         self.webEngineView.setUrl(QUrl(u"about:blank"))
+        self.pushButton_hour = QPushButton(self.tab_2)
+        self.pushButton_hour.setObjectName(u"pushButton_hour")
+        self.pushButton_hour.setGeometry(QRect(0, 0, 75, 23))
+        self.pushButton_day = QPushButton(self.tab_2)
+        self.pushButton_day.setObjectName(u"pushButton_day")
+        self.pushButton_day.setGeometry(QRect(100, 0, 75, 23))
+        self.pushButton_week = QPushButton(self.tab_2)
+        self.pushButton_week.setObjectName(u"pushButton_week")
+        self.pushButton_week.setGeometry(QRect(200, 0, 75, 23))
+        self.pushButton_year = QPushButton(self.tab_2)
+        self.pushButton_year.setObjectName(u"pushButton_year")
+        self.pushButton_year.setGeometry(QRect(400, 0, 75, 23))
+        self.dateEdit = QDateEdit(self.tab_2)
+        self.dateEdit.setObjectName(u"dateEdit")
+        self.dateEdit.setGeometry(QRect(500, 0, 110, 22))
+        self.pushButton_month = QPushButton(self.tab_2)
+        self.pushButton_month.setObjectName(u"pushButton_month")
+        self.pushButton_month.setGeometry(QRect(300, 0, 75, 23))
         self.tabWidget.addTab(self.tab_2, "")
         self.tab_3 = QWidget()
         self.tab_3.setObjectName(u"tab_3")
@@ -111,6 +129,12 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.pushButton_command_submit.clicked.connect(MainWindow.command_submit)
         self.pushButton_connect.clicked.connect(MainWindow.connect_server)
+        self.pushButton_hour.clicked.connect(MainWindow.get_hour_data)
+        self.pushButton_day.clicked.connect(MainWindow.get_day_data)
+        self.pushButton_week.clicked.connect(MainWindow.get_week_data)
+        self.pushButton_year.clicked.connect(MainWindow.get_year_data)
+        self.dateEdit.dateChanged.connect(MainWindow.get_custom_data)
+        self.pushButton_month.clicked.connect(MainWindow.get_month_data)
 
         self.tabWidget.setCurrentIndex(0)
 
@@ -124,11 +148,18 @@ class Ui_MainWindow(object):
         self.pushButton_command_submit.setText(QCoreApplication.translate("MainWindow", u"\u53d1\u9001", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"\u670d\u52a1\u5668\u8bbe\u7f6e", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"IP\u5730\u5740", None))
+        self.lineEdit_ip.setText(QCoreApplication.translate("MainWindow", u"192.168.0.112", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u7aef\u53e3", None))
+        self.lineEdit_port.setText(QCoreApplication.translate("MainWindow", u"9212", None))
         self.pushButton_connect.setText(QCoreApplication.translate("MainWindow", u"\u8fde\u63a5", None))
         self.label_state.setText(QCoreApplication.translate("MainWindow", u"\u672a\u8fde\u63a5", None))
         self.label_delay.setText(QCoreApplication.translate("MainWindow", u"0 ms", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_1), QCoreApplication.translate("MainWindow", u"\u63a7\u5236\u53f0", None))
+        self.pushButton_hour.setText(QCoreApplication.translate("MainWindow", u"\u65f6", None))
+        self.pushButton_day.setText(QCoreApplication.translate("MainWindow", u"\u5929", None))
+        self.pushButton_week.setText(QCoreApplication.translate("MainWindow", u"\u5468", None))
+        self.pushButton_year.setText(QCoreApplication.translate("MainWindow", u"\u5e74", None))
+        self.pushButton_month.setText(QCoreApplication.translate("MainWindow", u"\u6708", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"\u56fe\u8868", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), QCoreApplication.translate("MainWindow", u"\u8bbe\u7f6e", None))
     # retranslateUi

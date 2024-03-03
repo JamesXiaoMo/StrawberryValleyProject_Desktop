@@ -1,4 +1,5 @@
 import os
+import time
 
 from mainUI import *
 from PySide6.QtWidgets import QMainWindow
@@ -9,32 +10,71 @@ import plotly.graph_objs as go
 import pandas as pd
 
 console_buff = []
-socket_list = []
+socket_dictionary = {}
 
 
 # Socket线程类
 class SocketThread(QThread):
     server_info_signal = Signal(str, int)
     data_received_signal = Signal(str)
-    host = None
-    port = None
 
     def __init__(self):
         super().__init__()
+        self.port = None
+        self.host = None
         self.server_info_signal[str, int].connect(self.get_server_inf)
 
     def run(self):
         import socket
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            socket_list.append(s)
-            socket_list[0].connect((self.host, self.port))
-            socket_list[0].send("connect".encode('utf-8'))
+            socket_dictionary["main"] = s
+            s.connect((self.host, self.port))
+            s.send("connect".encode('utf-8'))
             self.receive_data()
 
     def receive_data(self):
         while True:
-            data = socket_list[0].recv(1024)
+            data = socket_dictionary["main"].recv(1024)
             self.data_received_signal.emit(data.decode("utf-8"))
+
+    def get_server_inf(self, host: str, port: int):
+        self.host = host
+        self.port = port
+
+
+class FileDownloadThread(QThread):
+    server_info_signal = Signal(str, int)
+    graph_update_signal = Signal(str)
+
+    def __init__(self, parameter: str):
+        super().__init__()
+        self.parameter = parameter
+        self.port = None
+        self.host = None
+        self.server_info_signal[str, int].connect(self.get_server_inf)
+
+    def run(self):
+        import socket
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            socket_dictionary["file_download"] = s
+            s.connect((self.host, self.port))
+            self.receive_data()
+            self.graph_update_signal.emit(self.parameter + "_data.json")
+
+    def receive_data(self):
+        if socket_dictionary["file_download"] is not None:
+            os.chdir(os.getcwd() + os.sep + "graphs")
+            time.sleep(1)
+            socket_dictionary["file_download"].send(self.parameter.encode('utf-8'))
+            with open(self.parameter + "_data.json", "wb") as f:
+                while True:
+                    data = socket_dictionary["file_download"].recv(1024)
+                    if data.decode('utf-8') == "end":
+                        break
+                    f.write(data)
+            print('Download complete')
+            time.sleep(1)
+            socket_dictionary["file_download"].close()
 
     def get_server_inf(self, host: str, port: int):
         self.host = host
@@ -46,11 +86,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
+        self.file_download_thread = None
         self.socket_thread = None
         self.setupUi(self)
         self.command_submit_signal[str].connect(self.update_console)
-        print(self.get_graph())
-        self.webEngineView.load(QUrl.fromLocalFile(self.get_graph()))
 
     # 网络连接
     def connect_server(self):
@@ -76,9 +115,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.lineEdit_command_line.clear()
 
     # 图表函数
-    def get_graph(self, graph_name="graph.html"):
-        data_graph = pd.read_excel("data_table.xlsx")
-        graph_dir = os.getcwd() + os.sep + "graphs" + os.sep + graph_name
+    def get_graph(self, json_name: str):
+        graph_path = os.getcwd()
+        os.chdir(graph_path)
+        data_graph = pd.read_json(graph_path + os.sep + json_name)
+        # data_graph = pd.read_excel("data_table.xlsx")
         hum = go.Scatter(
             x=data_graph["current_time"],
             y=data_graph["data_air_hum"],
@@ -97,8 +138,41 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             xaxis=dict(title="日期"),
             yaxis=dict(title="温度/湿度"))
         fig = go.Figure(data=data, layout=layout)
-        pyof.plot(fig, filename=graph_dir, auto_open=False)
-        return graph_dir
+        pyof.plot(fig, filename=graph_path + os.sep + "graph.html", auto_open=False)
+        self.webEngineView.setUrl(QUrl.fromLocalFile(graph_path + os.sep + "graph.html"))
+
+    def get_hour_data(self):
+        self.file_download_thread = FileDownloadThread("hour")
+        self.file_download_thread.start()
+        self.file_download_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
+        self.file_download_thread.graph_update_signal[str].connect(self.get_graph)
+
+    def get_day_data(self):
+        self.file_download_thread = FileDownloadThread("day")
+        self.file_download_thread.start()
+        self.file_download_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
+        self.file_download_thread.graph_update_signal[str].connect(self.get_graph)
+
+    def get_week_data(self):
+        self.file_download_thread = FileDownloadThread("week")
+        self.file_download_thread.start()
+        self.file_download_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
+        self.file_download_thread.graph_update_signal[str].connect(self.get_graph)
+
+    def get_month_data(self):
+        self.file_download_thread = FileDownloadThread("month")
+        self.file_download_thread.start()
+        self.file_download_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
+        self.file_download_thread.graph_update_signal[str].connect(self.get_graph)
+
+    def get_year_data(self):
+        self.file_download_thread = FileDownloadThread("year")
+        self.file_download_thread.start()
+        self.file_download_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
+        self.file_download_thread.graph_update_signal[str].connect(self.get_graph)
+
+    def get_custom_data(self):
+        pass
 
 
 if __name__ == '__main__':

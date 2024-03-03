@@ -154,6 +154,9 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="text">
+       <string>192.168.0.112</string>
+      </property>
      </widget>
      <widget class="QLabel" name="label_3">
       <property name="geometry">
@@ -184,6 +187,9 @@
         <width>120</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="text">
+       <string>9212</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_connect">
@@ -250,15 +256,90 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>22</y>
         <width>694</width>
-        <height>372</height>
+        <height>350</height>
        </rect>
       </property>
       <property name="url">
        <url>
         <string>about:blank</string>
        </url>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_hour">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>时</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_day">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>0</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>天</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_week">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>0</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>周</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_year">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>0</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>年</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>0</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_month">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>0</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>月</string>
       </property>
      </widget>
     </widget>
@@ -320,9 +401,111 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_hour</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_hour_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>-20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_day</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_day_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>155</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_week</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_week_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>298</x>
+     <y>-20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_year</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_year_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>-11</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dateEdit</sender>
+   <signal>dateChanged(QDate)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_custom_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>561</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>531</x>
+     <y>-16</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_month</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>get_month_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>362</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>-30</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>command_submit()</slot>
   <slot>connect_server()</slot>
+  <slot>get_hour_data()</slot>
+  <slot>get_day_data()</slot>
+  <slot>get_week_data()</slot>
+  <slot>get_year_data()</slot>
+  <slot>get_custom_data()</slot>
+  <slot>get_month_data()</slot>
  </slots>
 </ui>
