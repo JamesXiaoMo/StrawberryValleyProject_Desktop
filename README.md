@@ -10,3 +10,9 @@
 ![software_screen_1](git_files/imgs/software_sreenware_1.png)
 ![software_screen_2](git_files/imgs/software_sreenware_2.png)
 ***
+# 版本
+## Alpha-0.0.1  2024.3.4
+* 完成后端服务器连接功能
+* 完成控制台组件
+* 完成图表功能，支持下载后端从数据库获取的数据
+## Alpha-0.0.2  开发中
