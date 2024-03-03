@@ -1,4 +1,3 @@
 # README
-<div style="text-align:center">
-    <img src="https://github.com/JamesXiaoMo/StrawberryValleyProject_Desktop/blob/master/pics/main.ico" alt="LOGO" />
-</div>
+![LOGO](https://github.com/JamesXiaoMo/StrawberryValleyProject_Desktop/blob/master/pics/main.ico)
+<font size=10>StrawberryValley</font>
