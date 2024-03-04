@@ -2,9 +2,11 @@
 ***
 ![LOGO](pics/main.ico)
 # Strawberry Valley-草莓谷
-## 智能农业管理系统
-![GitHub License](https://img.shields.io/github/license/JamesXiaoMo/StrawberryValleyProject_Desktop) ![GitHub last commit](https://img.shields.io/github/last-commit/JamesXiaoMo/StrawberryValleyProject_Desktop) ![Static Badge](https://img.shields.io/badge/Author-JamesXiaoMo-blue?style=flat) ![Static Badge](https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E5%86%85%E6%B5%8B%E7%89%88-red?style=for-the-badge)
+## 智能农业管理系统桌面端
+![GitHub License](https://img.shields.io/github/license/JamesXiaoMo/StrawberryValleyProject_Desktop) ![GitHub last commit](https://img.shields.io/github/last-commit/JamesXiaoMo/StrawberryValleyProject_Desktop) ![Static Badge](https://img.shields.io/badge/Author-JamesXiaoMo-blue?style=flat) ![Static Badge](https://img.shields.io/badge/based-Pyqt6-green?style=flat)
+ ![Static Badge](https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E5%86%85%E6%B5%8B%E7%89%88-red?style=for-the-badge)
 
+### Windows/MacOS/Ubuntu22.04
 ***
 # 软件截图
 软件版本:Alpha-0.0.1
