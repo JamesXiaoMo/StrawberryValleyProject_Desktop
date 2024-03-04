@@ -111,6 +111,8 @@ class Ui_MainWindow(object):
         self.dateEdit = QDateEdit(self.tab_2)
         self.dateEdit.setObjectName(u"dateEdit")
         self.dateEdit.setGeometry(QRect(500, 0, 110, 22))
+        self.dateEdit.setDateTime(QDateTime(QDate(2024, 3, 3), QTime(15, 0, 0)))
+        self.dateEdit.setCalendarPopup(True)
         self.pushButton_month = QPushButton(self.tab_2)
         self.pushButton_month.setObjectName(u"pushButton_month")
         self.pushButton_month.setGeometry(QRect(300, 0, 75, 23))
@@ -143,7 +145,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"StrawberryValley Alpha-0.0.1", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"StrawberryValley Alpha-0.0.2", None))
         self.lineEdit_command_line.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\u8f93\u5165\u6307\u4ee4", None))
         self.pushButton_command_submit.setText(QCoreApplication.translate("MainWindow", u"\u53d1\u9001", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"\u670d\u52a1\u5668\u8bbe\u7f6e", None))

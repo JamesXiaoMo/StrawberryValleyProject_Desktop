@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>StrawberryValley Alpha-0.0.1</string>
+   <string>StrawberryValley Alpha-0.0.2</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -327,6 +327,19 @@
         <width>110</width>
         <height>22</height>
        </rect>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>15</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2024</year>
+        <month>3</month>
+        <day>3</day>
+       </datetime>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_month">

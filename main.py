@@ -11,6 +11,7 @@ import pandas as pd
 
 console_buff = []
 socket_dictionary = {}
+main_path = os.getcwd()
 
 
 # Socket线程类
