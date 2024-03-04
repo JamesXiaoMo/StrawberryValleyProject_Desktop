@@ -1,5 +1,5 @@
 import os
-import time
+import datetime
 
 from mainUI import *
 from PySide6.QtWidgets import QMainWindow
@@ -64,8 +64,7 @@ class FileDownloadThread(QThread):
 
     def receive_data(self):
         if socket_dictionary["file_download"] is not None:
-            os.chdir(os.getcwd() + os.sep + "graphs")
-            time.sleep(1)
+            os.chdir(main_path + os.sep + "graphs")
             socket_dictionary["file_download"].send(self.parameter.encode('utf-8'))
             with open(self.parameter + "_data.json", "wb") as f:
                 while True:
@@ -74,8 +73,9 @@ class FileDownloadThread(QThread):
                         break
                     f.write(data)
             print('Download complete')
-            time.sleep(1)
+            os.chdir(main_path)
             socket_dictionary["file_download"].close()
+            socket_dictionary["file_download"] = None
 
     def get_server_inf(self, host: str, port: int):
         self.host = host
@@ -91,6 +91,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.socket_thread = None
         self.setupUi(self)
         self.command_submit_signal[str].connect(self.update_console)
+        self.dateEdit.setDate(QDate.currentDate())
 
     # 网络连接
     def connect_server(self):
@@ -117,10 +118,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     # 图表函数
     def get_graph(self, json_name: str):
-        graph_path = os.getcwd()
-        os.chdir(graph_path)
-        data_graph = pd.read_json(graph_path + os.sep + json_name)
-        # data_graph = pd.read_excel("data_table.xlsx")
+        os.chdir(main_path + os.sep + "graphs" + os.sep)
+        data_graph = pd.read_json(json_name)
         hum = go.Scatter(
             x=data_graph["current_time"],
             y=data_graph["data_air_hum"],
@@ -139,8 +138,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             xaxis=dict(title="日期"),
             yaxis=dict(title="温度/湿度"))
         fig = go.Figure(data=data, layout=layout)
-        pyof.plot(fig, filename=graph_path + os.sep + "graph.html", auto_open=False)
-        self.webEngineView.setUrl(QUrl.fromLocalFile(graph_path + os.sep + "graph.html"))
+        pyof.plot(fig, filename="graph.html", auto_open=False)
+        self.webEngineView.setUrl(QUrl.fromLocalFile(main_path + os.sep + "graphs" + os.sep + "graph.html"))
+        os.chdir(main_path)
+        print(os.getcwd())
 
     def get_hour_data(self):
         self.file_download_thread = FileDownloadThread("hour")
