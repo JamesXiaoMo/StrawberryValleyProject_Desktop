@@ -17,8 +17,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWidgets import (QApplication, QCheckBox, QDateEdit, QLabel,
-    QLineEdit, QMainWindow, QPushButton, QSizePolicy,
-    QTabWidget, QTextEdit, QWidget)
+    QLineEdit, QListWidget, QListWidgetItem, QMainWindow,
+    QPushButton, QSizePolicy, QStackedWidget, QTabWidget,
+    QTextEdit, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -97,12 +98,12 @@ class Ui_MainWindow(object):
         self.label_5 = QLabel(self.tab_1)
         self.label_5.setObjectName(u"label_5")
         self.label_5.setGeometry(QRect(560, 210, 53, 15))
-        self.lineEdit = QLineEdit(self.tab_1)
-        self.lineEdit.setObjectName(u"lineEdit")
-        self.lineEdit.setGeometry(QRect(560, 230, 120, 20))
-        self.lineEdit_2 = QLineEdit(self.tab_1)
-        self.lineEdit_2.setObjectName(u"lineEdit_2")
-        self.lineEdit_2.setGeometry(QRect(560, 280, 120, 20))
+        self.lineEdit_username = QLineEdit(self.tab_1)
+        self.lineEdit_username.setObjectName(u"lineEdit_username")
+        self.lineEdit_username.setGeometry(QRect(560, 230, 120, 20))
+        self.lineEdit_pwd = QLineEdit(self.tab_1)
+        self.lineEdit_pwd.setObjectName(u"lineEdit_pwd")
+        self.lineEdit_pwd.setGeometry(QRect(560, 280, 120, 20))
         self.label_6 = QLabel(self.tab_1)
         self.label_6.setObjectName(u"label_6")
         self.label_6.setGeometry(QRect(560, 260, 53, 15))
@@ -116,6 +117,21 @@ class Ui_MainWindow(object):
         self.pushButton_2.setObjectName(u"pushButton_2")
         self.pushButton_2.setGeometry(QRect(560, 350, 120, 23))
         self.tabWidget.addTab(self.tab_1, "")
+        self.tab = QWidget()
+        self.tab.setObjectName(u"tab")
+        self.stackedWidget = QStackedWidget(self.tab)
+        self.stackedWidget.setObjectName(u"stackedWidget")
+        self.stackedWidget.setGeometry(QRect(150, 0, 550, 375))
+        self.page = QWidget()
+        self.page.setObjectName(u"page")
+        self.stackedWidget.addWidget(self.page)
+        self.page_2 = QWidget()
+        self.page_2.setObjectName(u"page_2")
+        self.stackedWidget.addWidget(self.page_2)
+        self.listWidget = QListWidget(self.tab)
+        self.listWidget.setObjectName(u"listWidget")
+        self.listWidget.setGeometry(QRect(0, 0, 150, 375))
+        self.tabWidget.addTab(self.tab, "")
         self.tab_2 = QWidget()
         self.tab_2.setObjectName(u"tab_2")
         self.webEngineView = QWebEngineView(self.tab_2)
@@ -137,7 +153,7 @@ class Ui_MainWindow(object):
         self.dateEdit = QDateEdit(self.tab_2)
         self.dateEdit.setObjectName(u"dateEdit")
         self.dateEdit.setGeometry(QRect(500, 0, 110, 22))
-        self.dateEdit.setDateTime(QDateTime(QDate(2024, 3, 3), QTime(6, 0, 0)))
+        self.dateEdit.setDateTime(QDateTime(QDate(2024, 3, 2), QTime(3, 0, 0)))
         self.dateEdit.setCalendarPopup(True)
         self.pushButton_month = QPushButton(self.tab_2)
         self.pushButton_month.setObjectName(u"pushButton_month")
@@ -163,8 +179,10 @@ class Ui_MainWindow(object):
         self.pushButton_year.clicked.connect(MainWindow.get_year_data)
         self.dateEdit.dateChanged.connect(MainWindow.get_custom_data)
         self.pushButton_month.clicked.connect(MainWindow.get_month_data)
+        self.pushButton.clicked.connect(MainWindow.login)
 
         self.tabWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -176,7 +194,7 @@ class Ui_MainWindow(object):
         self.pushButton_command_submit.setText(QCoreApplication.translate("MainWindow", u"\u53d1\u9001", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"\u670d\u52a1\u5668\u8bbe\u7f6e", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"IP\u5730\u5740", None))
-        self.lineEdit_ip.setText(QCoreApplication.translate("MainWindow", u"192.168.0.112", None))
+        self.lineEdit_ip.setText(QCoreApplication.translate("MainWindow", u"192.168.0.115", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u7aef\u53e3", None))
         self.lineEdit_port.setText(QCoreApplication.translate("MainWindow", u"9212", None))
         self.pushButton_connect.setText(QCoreApplication.translate("MainWindow", u"\u8fde\u63a5", None))
@@ -189,6 +207,7 @@ class Ui_MainWindow(object):
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u767b\u5f55", None))
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u6ce8\u518c", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_1), QCoreApplication.translate("MainWindow", u"\u63a7\u5236\u53f0", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u8bbe\u5907", None))
         self.pushButton_hour.setText(QCoreApplication.translate("MainWindow", u"\u65f6", None))
         self.pushButton_day.setText(QCoreApplication.translate("MainWindow", u"\u5929", None))
         self.pushButton_week.setText(QCoreApplication.translate("MainWindow", u"\u5468", None))

@@ -158,7 +158,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>192.168.0.112</string>
+       <string>192.168.0.115</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_3">
@@ -281,7 +281,7 @@
        <string>用户名</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="lineEdit_username">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -291,7 +291,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="lineEdit_pwd">
       <property name="geometry">
        <rect>
         <x>560</x>
@@ -351,6 +351,36 @@
       </property>
       <property name="text">
        <string>注册</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>设备</string>
+     </attribute>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>0</y>
+        <width>550</width>
+        <height>375</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page"/>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>150</width>
+        <height>375</height>
+       </rect>
       </property>
      </widget>
     </widget>
@@ -436,12 +466,12 @@
       </property>
       <property name="dateTime">
        <datetime>
-        <hour>6</hour>
+        <hour>3</hour>
         <minute>0</minute>
         <second>0</second>
         <year>2024</year>
         <month>3</month>
-        <day>3</day>
+        <day>2</day>
        </datetime>
       </property>
       <property name="calendarPopup">
@@ -616,6 +646,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>login()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>785</x>
+     <y>365</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>command_submit()</slot>
@@ -626,5 +672,6 @@
   <slot>get_year_data()</slot>
   <slot>get_custom_data()</slot>
   <slot>get_month_data()</slot>
+  <slot>login()</slot>
  </slots>
 </ui>

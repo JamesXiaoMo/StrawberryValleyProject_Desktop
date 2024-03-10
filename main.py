@@ -1,6 +1,4 @@
 import os
-import datetime
-
 from mainUI import *
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtCore import Signal, QThread
@@ -30,7 +28,7 @@ class SocketThread(QThread):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             socket_dictionary["main"] = s
             s.connect((self.host, self.port))
-            s.send("connect".encode('utf-8'))
+            s.send("CONNECT_FD".encode('utf-8'))
             self.receive_data()
 
     def receive_data(self):
@@ -92,6 +90,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.command_submit_signal[str].connect(self.update_console)
         self.dateEdit.setDate(QDate.currentDate())
+        self.lineEdit_pwd.setEchoMode(QLineEdit.EchoMode.Password)
 
     # 网络连接
     def connect_server(self):
@@ -174,6 +173,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.file_download_thread.graph_update_signal[str].connect(self.get_graph)
 
     def get_custom_data(self):
+        pass
+
+    def login(self):
         pass
 
 
