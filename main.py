@@ -9,13 +9,15 @@ import pandas as pd
 
 console_buff = []
 socket_dictionary = {}
+socket_busy = False
 main_path = os.getcwd()
 
 
-# Socket线程类
+# Socket连接线程类
 class SocketThread(QThread):
     server_info_signal = Signal(str, int)
-    data_received_signal = Signal(str)
+    console_signal = Signal(str)
+    login_signal = Signal(str)
 
     def __init__(self):
         super().__init__()
@@ -32,9 +34,23 @@ class SocketThread(QThread):
             self.receive_data()
 
     def receive_data(self):
+        datalist = []
         while True:
-            data = socket_dictionary["main"].recv(1024)
-            self.data_received_signal.emit(data.decode("utf-8"))
+            raw_data = socket_dictionary["main"].recv(1024)
+            data = raw_data.decode('utf-8')
+            if "-" in data:
+                datalist = data.split('-')
+            if data or datalist[0] == "CONNECT_FD_OK":
+                self.console_signal.emit("服务器连接成功")
+            elif data or datalist[0] == "CONNECT_FD_ERROR":
+                self.console_signal.emit("服务器连接失败")
+            elif data or datalist[0] == "LOGIN_OK":
+                self.console_signal.emit("登入成功")
+            elif data or datalist[0] == "LOGIN_ERROR":
+                self.console_signal.emit("登入失败")
+            elif data or datalist[0] == "DELAY_REPLY":
+                pass
+            datalist = []
 
     def get_server_inf(self, host: str, port: int):
         self.host = host
@@ -99,7 +115,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.socket_thread = SocketThread()
             self.socket_thread.start()
             self.socket_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
-            self.socket_thread.data_received_signal[str].connect(self.update_console)
+            self.socket_thread.console_signal[str].connect(self.update_console)
 
     # 控制台函数
     def update_console(self, msg: str):
@@ -175,8 +191,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def get_custom_data(self):
         pass
 
+    # 用户登录函数
     def login(self):
-        pass
+        socket_dictionary["main"].send("LOGIN_{USER_NAME}_{PASSWORD}".format(USER_NAME=self.lineEdit_username.text(),
+                                                                             PASSWORD=self.lineEdit_pwd.text()))
 
 
 if __name__ == '__main__':

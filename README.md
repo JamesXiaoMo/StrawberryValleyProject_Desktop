@@ -20,4 +20,5 @@
 * 完成图表功能，支持下载后端从数据库获取的数据📩
 ## Alpha-0.0.2  开发中
 ***
-# [开发日志](/git_files/DevelopmentLog.md)
+# 开发日志
+*  [点击这里](/git_files/DevelopmentLog.md)
