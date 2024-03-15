@@ -1,4 +1,9 @@
 import os
+import time
+
+import ping3
+import schedule
+
 from mainUI import *
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtCore import Signal, QThread
@@ -11,6 +16,46 @@ console_buff = []
 socket_dictionary = {}
 socket_busy = False
 main_path = os.getcwd()
+
+
+def s_send(msg: str) -> None:
+    global socket_busy
+    if socket_dictionary["main"] is not None:
+        while socket_busy:
+            time.sleep(1)
+            pass
+        socket_busy = True
+        socket_dictionary["main"].send(msg.encode('utf-8'))
+        socket_busy = False
+
+
+class ScheduledTasksThread(QThread):
+    server_info_signal = Signal(str, int)
+    delay_signal = Signal(int)
+
+    def __init__(self):
+        super().__init__()
+        self.host = None
+        self.port = None
+        self.server_info_signal[str, int].connect(self.get_server_inf)
+        schedule.every(1).minute.do(self.delay_test)
+
+    def run(self):
+        self.delay_test()
+        import schedule
+        import time
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
+
+    def delay_test(self) -> None:
+        if self.host is not None:
+            delay = ping3.ping(self.host)*1000
+            self.delay_signal.emit(int(round(delay)))
+
+    def get_server_inf(self, host: str, port: int) -> None:
+        self.host = host
+        self.port = port
 
 
 # Socket连接线程类
@@ -30,14 +75,14 @@ class SocketThread(QThread):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             socket_dictionary["main"] = s
             s.connect((self.host, self.port))
-            s.send("CONNECT_FD".encode('utf-8'))
+            time.sleep(1)
+            s.send("CONNECT_FD".encode("utf-8"))
             self.receive_data()
 
     def receive_data(self):
-        datalist = []
+        datalist = [0]
         while True:
-            raw_data = socket_dictionary["main"].recv(1024)
-            data = raw_data.decode('utf-8')
+            data = socket_dictionary["main"].recv(1024).decode('utf-8')
             if "-" in data:
                 datalist = data.split('-')
             if data or datalist[0] == "CONNECT_FD_OK":
@@ -50,7 +95,7 @@ class SocketThread(QThread):
                 self.console_signal.emit("登入失败")
             elif data or datalist[0] == "DELAY_REPLY":
                 pass
-            datalist = []
+            datalist = [0]
 
     def get_server_inf(self, host: str, port: int):
         self.host = host
@@ -101,6 +146,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
+        self.scheduled_tasks_thread = None
         self.file_download_thread = None
         self.socket_thread = None
         self.setupUi(self)
@@ -113,9 +159,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if self.label_state.text() == "未连接":
             self.update_console("正在尝试连接{}:{}".format(self.lineEdit_ip.text(), self.lineEdit_port.text()))
             self.socket_thread = SocketThread()
+            self.scheduled_tasks_thread = ScheduledTasksThread()
             self.socket_thread.start()
+            self.scheduled_tasks_thread.start()
             self.socket_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
+            self.scheduled_tasks_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
             self.socket_thread.console_signal[str].connect(self.update_console)
+            self.scheduled_tasks_thread.delay_signal[int].connect(self.update_delay)
 
     # 控制台函数
     def update_console(self, msg: str):
@@ -125,6 +175,15 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         for line in console_buff:
             console_text += line + "\r"
         self.textEdit_console.setText(console_text)
+
+    def update_delay(self, delay: int) -> None:
+        self.label_delay.setText("{} ms".format(str(delay)))
+        if delay < 20:
+            self.label_delay.setStyleSheet("color: green;")
+        elif 20 <= delay <= 80:
+            self.label_delay.setStyleSheet("color: orange;")
+        elif delay >80:
+            self.label_delay.setStyleSheet("color: red;")
 
     def command_submit(self):
         if self.lineEdit_command_line.text() != "":

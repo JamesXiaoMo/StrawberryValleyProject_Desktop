@@ -158,7 +158,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>192.168.0.115</string>
+       <string>192.168.0.112</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_3">
@@ -466,12 +466,12 @@
       </property>
       <property name="dateTime">
        <datetime>
-        <hour>3</hour>
+        <hour>18</hour>
         <minute>0</minute>
         <second>0</second>
         <year>2024</year>
         <month>3</month>
-        <day>2</day>
+        <day>1</day>
        </datetime>
       </property>
       <property name="calendarPopup">
