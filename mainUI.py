@@ -16,10 +16,10 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWebEngineWidgets import QWebEngineView
-from PySide6.QtWidgets import (QApplication, QCheckBox, QDateEdit, QLabel,
-    QLineEdit, QListWidget, QListWidgetItem, QMainWindow,
-    QPushButton, QSizePolicy, QStackedWidget, QTabWidget,
-    QTextEdit, QWidget)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QDateEdit,
+    QLabel, QLineEdit, QListWidget, QListWidgetItem,
+    QMainWindow, QPushButton, QSizePolicy, QStackedWidget,
+    QTabWidget, QTextEdit, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -107,15 +107,15 @@ class Ui_MainWindow(object):
         self.label_6 = QLabel(self.tab_1)
         self.label_6.setObjectName(u"label_6")
         self.label_6.setGeometry(QRect(560, 260, 53, 15))
-        self.checkBox_2 = QCheckBox(self.tab_1)
-        self.checkBox_2.setObjectName(u"checkBox_2")
-        self.checkBox_2.setGeometry(QRect(560, 300, 80, 19))
-        self.pushButton = QPushButton(self.tab_1)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(560, 320, 120, 23))
-        self.pushButton_2 = QPushButton(self.tab_1)
-        self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(560, 350, 120, 23))
+        self.checkBox_remember_pwd = QCheckBox(self.tab_1)
+        self.checkBox_remember_pwd.setObjectName(u"checkBox_remember_pwd")
+        self.checkBox_remember_pwd.setGeometry(QRect(560, 300, 80, 19))
+        self.pushButton_login = QPushButton(self.tab_1)
+        self.pushButton_login.setObjectName(u"pushButton_login")
+        self.pushButton_login.setGeometry(QRect(560, 320, 120, 23))
+        self.pushButton_register = QPushButton(self.tab_1)
+        self.pushButton_register.setObjectName(u"pushButton_register")
+        self.pushButton_register.setGeometry(QRect(560, 350, 120, 23))
         self.tabWidget.addTab(self.tab_1, "")
         self.tab = QWidget()
         self.tab.setObjectName(u"tab")
@@ -143,21 +143,25 @@ class Ui_MainWindow(object):
         self.pushButton_hour.setGeometry(QRect(0, 0, 75, 23))
         self.pushButton_day = QPushButton(self.tab_2)
         self.pushButton_day.setObjectName(u"pushButton_day")
-        self.pushButton_day.setGeometry(QRect(100, 0, 75, 23))
+        self.pushButton_day.setGeometry(QRect(85, 0, 75, 23))
         self.pushButton_week = QPushButton(self.tab_2)
         self.pushButton_week.setObjectName(u"pushButton_week")
-        self.pushButton_week.setGeometry(QRect(200, 0, 75, 23))
+        self.pushButton_week.setGeometry(QRect(170, 0, 75, 23))
         self.pushButton_year = QPushButton(self.tab_2)
         self.pushButton_year.setObjectName(u"pushButton_year")
-        self.pushButton_year.setGeometry(QRect(400, 0, 75, 23))
+        self.pushButton_year.setGeometry(QRect(345, 0, 75, 23))
         self.dateEdit = QDateEdit(self.tab_2)
         self.dateEdit.setObjectName(u"dateEdit")
-        self.dateEdit.setGeometry(QRect(500, 0, 110, 22))
-        self.dateEdit.setDateTime(QDateTime(QDate(2024, 3, 1), QTime(9, 0, 0)))
+        self.dateEdit.setGeometry(QRect(430, 0, 75, 22))
+        self.dateEdit.setDateTime(QDateTime(QDate(2024, 3, 1), QTime(0, 0, 0)))
         self.dateEdit.setCalendarPopup(True)
         self.pushButton_month = QPushButton(self.tab_2)
         self.pushButton_month.setObjectName(u"pushButton_month")
-        self.pushButton_month.setGeometry(QRect(300, 0, 75, 23))
+        self.pushButton_month.setGeometry(QRect(255, 0, 75, 23))
+        self.comboBox = QComboBox(self.tab_2)
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(515, 0, 180, 22))
         self.tabWidget.addTab(self.tab_2, "")
         self.tab_3 = QWidget()
         self.tab_3.setObjectName(u"tab_3")
@@ -179,7 +183,7 @@ class Ui_MainWindow(object):
         self.pushButton_year.clicked.connect(MainWindow.get_year_data)
         self.dateEdit.dateChanged.connect(MainWindow.get_custom_data)
         self.pushButton_month.clicked.connect(MainWindow.get_month_data)
-        self.pushButton.clicked.connect(MainWindow.login)
+        self.pushButton_login.clicked.connect(MainWindow.login)
 
         self.tabWidget.setCurrentIndex(0)
         self.stackedWidget.setCurrentIndex(0)
@@ -203,9 +207,9 @@ class Ui_MainWindow(object):
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"\u7528\u6237", None))
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"\u7528\u6237\u540d", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"\u5bc6\u7801", None))
-        self.checkBox_2.setText(QCoreApplication.translate("MainWindow", u"\u8bb0\u4f4f\u5bc6\u7801", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u767b\u5f55", None))
-        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u6ce8\u518c", None))
+        self.checkBox_remember_pwd.setText(QCoreApplication.translate("MainWindow", u"\u8bb0\u4f4f\u5bc6\u7801", None))
+        self.pushButton_login.setText(QCoreApplication.translate("MainWindow", u"\u767b\u5f55", None))
+        self.pushButton_register.setText(QCoreApplication.translate("MainWindow", u"\u6ce8\u518c", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_1), QCoreApplication.translate("MainWindow", u"\u63a7\u5236\u53f0", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"\u8bbe\u5907", None))
         self.pushButton_hour.setText(QCoreApplication.translate("MainWindow", u"\u65f6", None))
@@ -213,6 +217,8 @@ class Ui_MainWindow(object):
         self.pushButton_week.setText(QCoreApplication.translate("MainWindow", u"\u5468", None))
         self.pushButton_year.setText(QCoreApplication.translate("MainWindow", u"\u5e74", None))
         self.pushButton_month.setText(QCoreApplication.translate("MainWindow", u"\u6708", None))
+        self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow", u"\u65e0\u8bbe\u5907", None))
+
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"\u56fe\u8868", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), QCoreApplication.translate("MainWindow", u"\u8bbe\u7f6e", None))
     # retranslateUi

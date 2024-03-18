@@ -87,23 +87,23 @@ class SocketThread(QThread):
     def receive_data(self):
         datalist = [0]
         try:
-            while socket_status:
+            while True:
                 data = socket_dictionary["main"].recv(1024).decode('utf-8')
-                if "-" in data:
-                    datalist = data.split('-')
-                if data or datalist[0] == "CONNECT_FD_OK":
+                print(data)
+                if data == "CONNECT_FD_OK":
                     self.console_signal.emit("服务器连接成功")
                     self.pushbutton_connect_signal.emit(1)
                     self.label_state_signal.emit(1)
-                elif data or datalist[0] == "CONNECT_FD_ERROR":
+                elif data == "CONNECT_FD_ERROR":
                     self.console_signal.emit("服务器连接失败")
-                elif data or datalist[0] == "LOGIN_OK":
-                    self.console_signal.emit("登入成功")
-                elif data or datalist[0] == "LOGIN_ERROR":
-                    self.console_signal.emit("登入失败")
-                elif data or datalist[0] == "DELAY_REPLY":
+                elif data == "LOGIN_OK":
+                    self.console_signal.emit("登录成功")
+                elif data == "LOGIN_ERROR":
+                    self.console_signal.emit("登录失败")
+                elif data == "DELAY_REPLY":
                     pass
-                datalist = [0]
+                if "-" in data:
+                    datalist = data.split('-')
         except ConnectionAbortedError:
             self.console_signal.emit("客户端断开连接")
 
@@ -287,8 +287,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     # 用户登录函数
     def login(self):
-        socket_dictionary["main"].send("LOGIN_{USER_NAME}_{PASSWORD}".format(USER_NAME=self.lineEdit_username.text(),
-                                                                             PASSWORD=self.lineEdit_pwd.text()))
+        s_send("LOGIN_{USER_NAME}_{PASSWORD}".format(USER_NAME=self.lineEdit_username.text(),
+                                                     PASSWORD=self.lineEdit_pwd.text()))
 
 
 if __name__ == '__main__':
