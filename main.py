@@ -16,8 +16,10 @@ console_buff = []
 socket_dictionary = {}
 socket_busy = False
 main_path = os.getcwd()
+socket_status = True
 
 
+# 客户端向服务器发送String的函数
 def s_send(msg: str) -> None:
     global socket_busy
     if socket_dictionary["main"] is not None:
@@ -29,6 +31,7 @@ def s_send(msg: str) -> None:
         socket_busy = False
 
 
+# 定时任务线程类
 class ScheduledTasksThread(QThread):
     server_info_signal = Signal(str, int)
     delay_signal = Signal(int)
@@ -50,7 +53,7 @@ class ScheduledTasksThread(QThread):
 
     def delay_test(self) -> None:
         if self.host is not None:
-            delay = ping3.ping(self.host)*1000
+            delay = ping3.ping(self.host) * 1000
             self.delay_signal.emit(int(round(delay)))
 
     def get_server_inf(self, host: str, port: int) -> None:
@@ -63,6 +66,8 @@ class SocketThread(QThread):
     server_info_signal = Signal(str, int)
     console_signal = Signal(str)
     login_signal = Signal(str)
+    pushbutton_connect_signal = Signal(int)
+    label_state_signal = Signal(int)
 
     def __init__(self):
         super().__init__()
@@ -81,27 +86,33 @@ class SocketThread(QThread):
 
     def receive_data(self):
         datalist = [0]
-        while True:
-            data = socket_dictionary["main"].recv(1024).decode('utf-8')
-            if "-" in data:
-                datalist = data.split('-')
-            if data or datalist[0] == "CONNECT_FD_OK":
-                self.console_signal.emit("服务器连接成功")
-            elif data or datalist[0] == "CONNECT_FD_ERROR":
-                self.console_signal.emit("服务器连接失败")
-            elif data or datalist[0] == "LOGIN_OK":
-                self.console_signal.emit("登入成功")
-            elif data or datalist[0] == "LOGIN_ERROR":
-                self.console_signal.emit("登入失败")
-            elif data or datalist[0] == "DELAY_REPLY":
-                pass
-            datalist = [0]
+        try:
+            while socket_status:
+                data = socket_dictionary["main"].recv(1024).decode('utf-8')
+                if "-" in data:
+                    datalist = data.split('-')
+                if data or datalist[0] == "CONNECT_FD_OK":
+                    self.console_signal.emit("服务器连接成功")
+                    self.pushbutton_connect_signal.emit(1)
+                    self.label_state_signal.emit(1)
+                elif data or datalist[0] == "CONNECT_FD_ERROR":
+                    self.console_signal.emit("服务器连接失败")
+                elif data or datalist[0] == "LOGIN_OK":
+                    self.console_signal.emit("登入成功")
+                elif data or datalist[0] == "LOGIN_ERROR":
+                    self.console_signal.emit("登入失败")
+                elif data or datalist[0] == "DELAY_REPLY":
+                    pass
+                datalist = [0]
+        except ConnectionAbortedError:
+            self.console_signal.emit("客户端断开连接")
 
     def get_server_inf(self, host: str, port: int):
         self.host = host
         self.port = port
 
 
+# 文件下载线程类
 class FileDownloadThread(QThread):
     server_info_signal = Signal(str, int)
     graph_update_signal = Signal(str)
@@ -156,16 +167,26 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     # 网络连接
     def connect_server(self):
-        if self.label_state.text() == "未连接":
+        global socket_status
+        if self.pushButton_connect.text() == "连接":
+            socket_status = True
             self.update_console("正在尝试连接{}:{}".format(self.lineEdit_ip.text(), self.lineEdit_port.text()))
             self.socket_thread = SocketThread()
             self.scheduled_tasks_thread = ScheduledTasksThread()
             self.socket_thread.start()
+            self.socket_thread.pushbutton_connect_signal[int].connect(self.update_pushbutton_connect)
             self.scheduled_tasks_thread.start()
             self.socket_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
             self.scheduled_tasks_thread.server_info_signal.emit(self.lineEdit_ip.text(), int(self.lineEdit_port.text()))
             self.socket_thread.console_signal[str].connect(self.update_console)
             self.scheduled_tasks_thread.delay_signal[int].connect(self.update_delay)
+            self.socket_thread.label_state_signal[int].connect(self.update_label_state)
+        elif self.pushButton_connect.text() == "断开连接":
+            socket_dictionary["main"].close()
+            socket_dictionary["main"] = None
+            self.socket_thread.pushbutton_connect_signal.emit(0)
+            self.socket_thread.label_state_signal.emit(0)
+            socket_status = False
 
     # 控制台函数
     def update_console(self, msg: str):
@@ -182,8 +203,22 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.label_delay.setStyleSheet("color: green;")
         elif 20 <= delay <= 80:
             self.label_delay.setStyleSheet("color: orange;")
-        elif delay >80:
+        elif delay > 80:
             self.label_delay.setStyleSheet("color: red;")
+
+    def update_pushbutton_connect(self, status: int) -> None:
+        if status == 0:
+            self.pushButton_connect.setText("连接")
+        elif status == 1:
+            self.pushButton_connect.setText("断开连接")
+
+    def update_label_state(self, status: int) -> None:
+        if status == 0:
+            self.label_state.setText("未连接")
+            self.label_state.setStyleSheet("color: red;")
+        elif status == 1:
+            self.label_state.setText("已连接")
+            self.label_state.setStyleSheet("color:green")
 
     def command_submit(self):
         if self.lineEdit_command_line.text() != "":
